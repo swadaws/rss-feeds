@@ -15,6 +15,7 @@ import json
 import os
 import re
 import sys
+import time
 from datetime import datetime, timezone, timedelta
 from email.utils import format_datetime
 from urllib.parse import urljoin, urlparse
@@ -34,10 +35,22 @@ SECTION_SUB_RE = re.compile(r"^/[^/]+/[^/]+/$")
 
 
 def fetch(url):
-    resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
-    resp.raise_for_status()
-    resp.encoding = resp.apparent_encoding or "utf-8"
-    return resp.text
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "ja,en;q=0.5",
+    }
+    last_exc = None
+    for attempt in range(3):
+        try:
+            resp = requests.get(url, headers=headers, timeout=30)
+            resp.raise_for_status()
+            resp.encoding = resp.apparent_encoding or "utf-8"
+            return resp.text
+        except Exception as exc:  # transient errors: retry with backoff
+            last_exc = exc
+            time.sleep(2 * (attempt + 1))
+    raise last_exc
 
 
 def parse_uomo_whatsnew(html, base_url):
@@ -183,8 +196,11 @@ def flatten_events(container, break_check):
             parsed = urlparse(el.get("href") or "")
             if break_check(parsed.path, parsed.query):
                 break
+            # Segments inside one anchor (category label, date line,
+            # title lines) are kept apart with newlines; some sites wrap
+            # a whole card in a single anchor.
             events.append(("a", parsed.path, parsed.query,
-                           el.get_text(strip=True)))
+                           el.get_text("\n", strip=True)))
         elif isinstance(el, str):
             text = el.strip()
             if text:
@@ -253,7 +269,9 @@ def parse_fashionpost_news(html, base_url):
         if current and current["date"] is not None and current["texts"]:
             texts = current["texts"]
             jp = [t for t in texts if JP_CHARS_RE.search(t)]
-            title = max(jp or texts, key=len)
+            # The Japanese title may be split over several nodes inside
+            # the card anchor; join its segments back together.
+            title = "".join(jp) if jp else max(texts, key=len)
             items.append({
                 "title": title,
                 "url": current["url"],
@@ -278,8 +296,21 @@ def parse_fashionpost_news(html, base_url):
             if current is None or current["url"] != url:
                 flush()
                 current = {"url": url, "date": pending_date, "texts": []}
-            if len(ev[3]) >= 6:
-                current["texts"].append(ev[3])
+            # One card may be a single anchor holding the category
+            # label, the date line and both titles as segments.
+            for seg in ev[3].split("\n"):
+                seg = seg.strip()
+                if not seg:
+                    continue
+                dm = TFP_DATE_RE.search(seg)
+                if dm:
+                    current["date"] = (int(dm.group(3)),
+                                       MONTHS[dm.group(1).lower()],
+                                       int(dm.group(2)))
+                elif seg.lower() == "news":
+                    continue
+                elif len(seg) >= 4:
+                    current["texts"].append(seg)
     flush()
     result = []
     seen = set()
@@ -321,7 +352,8 @@ def build_rss(site, items):
         if it.get("sub"):
             desc_parts.append(it["sub"])
         lines.append("<item>")
-        lines.append(f"<title>{escape(it['title'])}</title>")
+        clean_title = re.sub(r"\s+", " ", it["title"]).strip()
+        lines.append(f"<title>{escape(clean_title)}</title>")
         lines.append(f"<link>{escape(it['url'])}</link>")
         lines.append(f'<guid isPermaLink="true">{escape(it["url"])}</guid>')
         lines.append(f"<pubDate>{format_datetime(pub)}</pubDate>")

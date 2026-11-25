@@ -1,0 +1,1 @@
+{"sites":[{"description":"WEB UOMOの新着記事一覧（非公式RSS）","id":"uomo","list_url":"https://www.webuomo.jp/whatsnew/","max_items":30,"name":"UOMO 新着記事","output":"feeds/uomo.xml","pages":2,"parser":"uomo_whatsnew","site_url":"https://www.webuomo.jp/"}]}

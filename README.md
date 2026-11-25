@@ -9,3 +9,5 @@ RSS の無いサイトの新着一覧を RSS 2.0 に変換し、GitHub Pages で
 ## フィード
 
 - UOMO 新着記事: `feeds/uomo.xml`
+- 美術手帖 ニュース: `feeds/bijutsutecho.xml`
+- The Fashion Post ニュース: `feeds/fashionpost.xml`

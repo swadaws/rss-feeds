@@ -161,8 +161,140 @@ def parse_uomo_whatsnew(html, base_url):
     return result
 
 
+BT_ARTICLE_RE = re.compile(r"^/magazine/news/(?:([^/]+)/)?(\d+)$")
+TFP_ARTICLE_RE = re.compile(r"^/news/(\d+)$")
+TFP_DATE_RE = re.compile(
+    r"(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\s+(\d{1,2}),\s+(\d{4})",
+    re.IGNORECASE,
+)
+MONTHS = {name: i + 1 for i, name in enumerate(
+    ["jan", "feb", "mar", "apr", "may", "jun",
+     "jul", "aug", "sep", "oct", "nov", "dec"])}
+JP_CHARS_RE = re.compile(r"[぀-ヿ一-鿿]")
+
+
+def flatten_events(container, break_check):
+    """Flatten a container into ("a", path, query, text) / ("text", text)
+    events in document order. break_check(path, query) ends the stream
+    (used to stop at pagination)."""
+    events = []
+    for el in container.descendants:
+        if getattr(el, "name", None) == "a":
+            parsed = urlparse(el.get("href") or "")
+            if break_check(parsed.path, parsed.query):
+                break
+            events.append(("a", parsed.path, parsed.query,
+                           el.get_text(strip=True)))
+        elif isinstance(el, str):
+            text = el.strip()
+            if text:
+                events.append(("text", text))
+    return events
+
+
+def parse_bijutsutecho_news(html, base_url):
+    """美術手帖 news list: thumbnail, category + date (YYYY.MM.DD),
+    title, excerpt. The article URL /magazine/news/<category>/<id>
+    carries the category, so it is read from the URL itself."""
+    soup = BeautifulSoup(html, "html.parser")
+    main = soup.find("main") or soup
+    events = flatten_events(
+        main,
+        lambda path, query: path.rstrip("/") == "/magazine/news"
+        and "page=" in query,
+    )
+    items = []
+    pending_date = None
+    for ev in events:
+        if ev[0] == "text":
+            m = DATE_RE.search(ev[1])
+            if m:
+                pending_date = (int(m.group(1)), int(m.group(2)),
+                                int(m.group(3)))
+            continue
+        m = BT_ARTICLE_RE.match(ev[1])
+        if m and len(ev[3]) >= 6 and pending_date is not None:
+            items.append({
+                "title": ev[3],
+                "url": urljoin(base_url, ev[1]),
+                "category": (m.group(1) or "news").upper(),
+                "date": pending_date,
+                "sub": None,
+                "subcategory": None,
+            })
+    by_url = {}
+    order = []
+    for it in items:
+        if it["url"] not in by_url:
+            by_url[it["url"]] = it
+            order.append(it["url"])
+    result = [by_url[k] for k in order]
+    result.sort(key=lambda it: it["date"], reverse=True)
+    return result
+
+
+def parse_fashionpost_news(html, base_url):
+    """The Fashion Post /news list: a 'news | nov 25, 2026 7:40 pm'
+    line, then the English title, the Japanese title and a thumbnail,
+    all linking to /news/<id>. Consecutive anchors to the same article
+    are grouped; the Japanese title wins as the feed title."""
+    soup = BeautifulSoup(html, "html.parser")
+    main = soup.find("main") or soup
+    events = flatten_events(
+        main,
+        lambda path, query: path.startswith("/news/page/"),
+    )
+    items = []
+    pending_date = None
+    current = None  # {"url", "date", "texts": [...]}
+
+    def flush():
+        nonlocal current
+        if current and current["date"] is not None and current["texts"]:
+            texts = current["texts"]
+            jp = [t for t in texts if JP_CHARS_RE.search(t)]
+            title = max(jp or texts, key=len)
+            items.append({
+                "title": title,
+                "url": current["url"],
+                "category": "news",
+                "date": current["date"],
+                "sub": None,
+                "subcategory": None,
+            })
+        current = None
+
+    for ev in events:
+        if ev[0] == "text":
+            m = TFP_DATE_RE.search(ev[1])
+            if m:
+                flush()
+                pending_date = (int(m.group(3)),
+                                MONTHS[m.group(1).lower()],
+                                int(m.group(2)))
+            continue
+        if TFP_ARTICLE_RE.match(ev[1]):
+            url = urljoin(base_url, ev[1])
+            if current is None or current["url"] != url:
+                flush()
+                current = {"url": url, "date": pending_date, "texts": []}
+            if len(ev[3]) >= 6:
+                current["texts"].append(ev[3])
+    flush()
+    result = []
+    seen = set()
+    for it in items:
+        if it["url"] not in seen:
+            seen.add(it["url"])
+            result.append(it)
+    result.sort(key=lambda it: it["date"], reverse=True)
+    return result
+
+
 PARSERS = {
     "uomo_whatsnew": parse_uomo_whatsnew,
+    "bijutsutecho_news": parse_bijutsutecho_news,
+    "fashionpost_news": parse_fashionpost_news,
 }
 
 
@@ -237,7 +369,12 @@ def main():
             parser = PARSERS[site["parser"]]
             items = []
             for page in range(1, site.get("pages", 1) + 1):
-                url = site["list_url"] if page == 1 else f"{site['list_url']}?page={page}"
+                if page == 1:
+                    url = site["list_url"]
+                elif site.get("page_url"):
+                    url = site["page_url"].format(page=page)
+                else:
+                    url = f"{site['list_url']}?page={page}"
                 items.extend(parser(fetch(url), site["site_url"]))
             # Re-deduplicate across pages, newest date wins.
             by_url = {}

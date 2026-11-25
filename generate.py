@@ -17,7 +17,7 @@ import re
 import sys
 from datetime import datetime, timezone, timedelta
 from email.utils import format_datetime
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 from xml.sax.saxutils import escape
 
 import requests
@@ -54,20 +54,22 @@ def parse_uomo_whatsnew(html, base_url):
     main = soup.find("main") or soup
 
     # Flatten the list body into an event stream of anchors and text
-    # nodes in document order. The stream ends at the pagination (the
-    # list body is over there) or at the UOMO'S CHOICE / RANKING
-    # headings, whichever comes first, so side sections never leak in.
-    events = []  # ("a", href, text) or ("text", text)
+    # nodes in document order. Anchor events carry the URL *path* (the
+    # site may use absolute or relative hrefs). The stream ends at the
+    # pagination (the list body is over there) or at the UOMO'S CHOICE /
+    # RANKING headings, whichever comes first, so side sections never
+    # leak in.
+    events = []  # ("a", path, text) or ("text", text)
     for el in main.descendants:
         if getattr(el, "name", None) in ("h2", "h3"):
             label = el.get_text(strip=True)
             if "CHOICE" in label or "RANKING" in label:
                 break
         if getattr(el, "name", None) == "a":
-            href = el.get("href") or ""
-            if "whatsnew" in href and "page=" in href:
+            parsed = urlparse(el.get("href") or "")
+            if "whatsnew" in parsed.path and "page=" in parsed.query:
                 break  # pagination: end of the list body
-            events.append(("a", href, el.get_text(strip=True)))
+            events.append(("a", parsed.path, el.get_text(strip=True)))
         elif isinstance(el, str):
             text = el.strip()
             if text:
@@ -77,7 +79,7 @@ def parse_uomo_whatsnew(html, base_url):
         ev = events[i]
         return (
             ev[0] == "a"
-            and ARTICLE_PATH_RE.match(ev[1].split("?")[0])
+            and ARTICLE_PATH_RE.match(ev[1])
             and len(ev[2]) >= 6
         )
 
@@ -105,7 +107,7 @@ def parse_uomo_whatsnew(html, base_url):
                 if nxt[0] == "a":
                     if nxt[2] == "" or is_title(j):
                         break
-                    path = nxt[1].split("?")[0]
+                    path = nxt[1]
                     if SECTION_ROOT_RE.match(path) or SECTION_SUB_RE.match(path):
                         break
                     brand = nxt[2]
@@ -129,7 +131,7 @@ def parse_uomo_whatsnew(html, base_url):
             if m:
                 pending["date"] = (int(m.group(1)), int(m.group(2)), int(m.group(3)))
         else:
-            path = ev[1].split("?")[0]
+            path = ev[1]
             if SECTION_ROOT_RE.match(path) and 0 < len(ev[2]) <= 24:
                 pending["category"] = ev[2]
             elif SECTION_SUB_RE.match(path) and 0 < len(ev[2]) <= 10:
@@ -203,6 +205,29 @@ def build_rss(site, items):
     return "\n".join(lines) + "\n"
 
 
+def dump_diagnostics(site):
+    """Print what the list page actually looked like, for the run log.
+
+    Called only when extraction produced nothing, so a failed run shows
+    whether the site changed shape, blocked the fetch, or moved content
+    behind scripts.
+    """
+    try:
+        html = fetch(site["list_url"])
+    except Exception as exc:
+        print(f"diagnostics: refetch failed: {exc}", file=sys.stderr)
+        return
+    soup = BeautifulSoup(html, "html.parser")
+    anchors = soup.find_all("a")
+    print(f"diagnostics: html {len(html)} chars, {len(anchors)} anchors, "
+          f"main={'yes' if soup.find('main') else 'no'}, "
+          f"date matches={len(DATE_RE.findall(html))}", file=sys.stderr)
+    print(f"diagnostics: html head: {html[:300]!r}", file=sys.stderr)
+    for a in anchors[:40]:
+        print(f"diagnostics: a href={a.get('href')!r} text={a.get_text(strip=True)[:50]!r}",
+              file=sys.stderr)
+
+
 def main():
     with open("sites.json", encoding="utf-8") as f:
         config = json.load(f)
@@ -226,6 +251,7 @@ def main():
             items = [by_url[k] for k in order]
             items.sort(key=lambda it: it["date"], reverse=True)
             if not items:
+                dump_diagnostics(site)
                 raise RuntimeError("no items extracted; keeping previous feed")
             xml = build_rss(site, items)
             out_dir = os.path.dirname(site["output"])

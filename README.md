@@ -11,3 +11,5 @@ RSS の無いサイトの新着一覧を RSS 2.0 に変換し、GitHub Pages で
 - UOMO 新着記事: `feeds/uomo.xml`
 - 美術手帖 ニュース: `feeds/bijutsutecho.xml`
 - The Fashion Post ニュース: `feeds/fashionpost.xml`
+- ニュースイッチ 新着記事: `feeds/newswitch.xml`（一覧に日付が無いため、pubDate は初回検出時刻。状態は `feeds/state.json` に保持）
+- MonoQue ニュース: `feeds/monoque.xml`

@@ -186,6 +186,12 @@ MONTHS = {name: i + 1 for i, name in enumerate(
 JP_CHARS_RE = re.compile(r"[぀-ヿ一-鿿]")
 
 
+NS_ARTICLE_RE = re.compile(r"^/p/(\d+)$")
+MQ_ARTICLE_RE = re.compile(r"^/news/([0-9a-f]{40})/$")
+MQ_SECTION_RE = re.compile(r"^/news/[^/]+/$")
+JP_DATE_RE = re.compile(r"(\d{4})年(\d{1,2})月(\d{1,2})日")
+
+
 def flatten_events(container, break_check):
     """Flatten a container into ("a", path, query, text) / ("text", text)
     events in document order. break_check(path, query) ends the stream
@@ -322,10 +328,112 @@ def parse_fashionpost_news(html, base_url):
     return result
 
 
+def parse_newswitch_latest(html, base_url):
+    """newswitch /articles/latest: each div.article card holds an
+    image link and a title link to /p/<id>, plus keyword tags. The
+    list shows no dates, so items carry date=None and main() stamps
+    them with their first-seen time from the state file."""
+    soup = BeautifulSoup(html, "html.parser")
+    items = []
+    for card in soup.find_all("div", class_="article"):
+        title = None
+        url = None
+        tags = []
+        # The title link lives in div.title; the image link to the
+        # same article only carries the "NEW" badge as text, so it
+        # must not win. Fall back to the longest link text.
+        title_div = card.find("div", class_="title")
+        if title_div is not None:
+            a = title_div.find("a", href=True)
+            if a is not None and NS_ARTICLE_RE.match(urlparse(a["href"]).path):
+                url = urljoin(base_url, urlparse(a["href"]).path)
+                title = a.get_text(strip=True) or None
+        for a in card.find_all("a", href=True):
+            path = urlparse(a["href"]).path
+            if NS_ARTICLE_RE.match(path):
+                text = a.get_text(strip=True)
+                if url is None and text and text != "NEW":
+                    url = urljoin(base_url, path)
+                    title = text
+            elif "/keyword/detail/" in path:
+                tag = a.get_text(strip=True).lstrip("#").strip()
+                if tag:
+                    tags.append(tag)
+        if url and title:
+            items.append({
+                "title": title,
+                "url": url,
+                "category": tags[0] if tags else None,
+                "date": None,
+                "sub": " ".join("#" + t for t in tags[1:]) or None,
+                "subcategory": None,
+            })
+    return items
+
+
+def parse_monoque_news(html, base_url):
+    """MonoQue /news/ list: each card is an image link and a title
+    link to /news/<40-hex>/, followed by the company name, a date
+    (YYYY年M月D日) and hashtag links to /news/<section>/."""
+    soup = BeautifulSoup(html, "html.parser")
+    container = soup
+    for div in soup.find_all("div"):
+        classes = " ".join(div.get("class") or [])
+        if "c-archive__lists" in classes:
+            container = div
+            break
+    events = flatten_events(container, lambda path, query: False)
+    items = []
+    current = None
+
+    def flush():
+        nonlocal current
+        if current and current["date"] is not None:
+            items.append(current)
+        current = None
+
+    for ev in events:
+        if ev[0] == "text":
+            m = JP_DATE_RE.search(ev[1])
+            if m and current is not None and current["date"] is None:
+                current["date"] = (int(m.group(1)), int(m.group(2)),
+                                   int(m.group(3)))
+            continue
+        path, text = ev[1], ev[3]
+        if MQ_ARTICLE_RE.match(path):
+            if len(text) >= 6:
+                flush()
+                current = {
+                    "title": text,
+                    "url": urljoin(base_url, path),
+                    "category": None,
+                    "date": None,
+                    "sub": None,
+                    "subcategory": None,
+                }
+            continue
+        if (current is not None and MQ_SECTION_RE.match(path)
+                and text.startswith("#")):
+            tag = text.lstrip("#").strip()
+            if tag and current["category"] is None:
+                current["category"] = tag
+    flush()
+    result = []
+    seen = set()
+    for it in items:
+        if it["url"] not in seen:
+            seen.add(it["url"])
+            result.append(it)
+    result.sort(key=lambda it: it["date"], reverse=True)
+    return result
+
+
 PARSERS = {
     "uomo_whatsnew": parse_uomo_whatsnew,
     "bijutsutecho_news": parse_bijutsutecho_news,
     "fashionpost_news": parse_fashionpost_news,
+    "newswitch_latest": parse_newswitch_latest,
+    "monoque_news": parse_monoque_news,
 }
 
 
@@ -342,8 +450,10 @@ def build_rss(site, items):
         f"<lastBuildDate>{format_datetime(now)}</lastBuildDate>",
     ]
     for it in items[: site.get("max_items", 30)]:
-        y, m, d = it["date"]
-        pub = datetime(y, m, d, 0, 0, 0, tzinfo=JST)
+        pub = it.get("pub")
+        if pub is None:
+            y, m, d = it["date"]
+            pub = datetime(y, m, d, 0, 0, 0, tzinfo=JST)
         desc_parts = []
         if it.get("category"):
             desc_parts.append(it["category"])
@@ -395,6 +505,7 @@ def dump_diagnostics(site):
 def main():
     with open("sites.json", encoding="utf-8") as f:
         config = json.load(f)
+    state = load_state()
     failures = 0
     for site in config["sites"]:
         try:
@@ -415,10 +526,27 @@ def main():
                 if it["url"] not in by_url:
                     by_url[it["url"]] = it
                     order.append(it["url"])
-                elif it["date"] > by_url[it["url"]]["date"]:
+                elif (it["date"] is not None
+                        and by_url[it["url"]]["date"] is not None
+                        and it["date"] > by_url[it["url"]]["date"]):
                     by_url[it["url"]] = it
             items = [by_url[k] for k in order]
-            items.sort(key=lambda it: it["date"], reverse=True)
+            # Dateless items (newswitch) are stamped with their
+            # first-seen time, kept in the state file so the stamp
+            # stays stable across runs.
+            site_state = state.setdefault(site["id"], {})
+            used_state = False
+            now = datetime.now(JST)
+            for it in items:
+                if it["date"] is None:
+                    used_state = True
+                    ts = site_state.get(it["url"])
+                    if ts:
+                        it["pub"] = datetime.fromisoformat(ts)
+                    else:
+                        it["pub"] = now
+                        site_state[it["url"]] = now.isoformat()
+            items.sort(key=item_dt, reverse=True)
             if not items:
                 dump_diagnostics(site)
                 raise RuntimeError("no items extracted; keeping previous feed")
@@ -429,10 +557,40 @@ def main():
             with open(site["output"], "w", encoding="utf-8") as f:
                 f.write(xml)
             print(f"[{site['id']}] wrote {site['output']} with {len(items)} items")
+            if used_state:
+                state[site["id"]] = {
+                    it["url"]: site_state[it["url"]]
+                    for it in items if it["url"] in site_state
+                }
+                save_state(state)
         except Exception as exc:  # keep the previous feed file untouched
             failures += 1
             print(f"[{site['id']}] FAILED: {exc}", file=sys.stderr)
     return 1 if failures else 0
+
+
+STATE_PATH = os.path.join("feeds", "state.json")
+
+
+def load_state():
+    try:
+        with open(STATE_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def save_state(state):
+    os.makedirs(os.path.dirname(STATE_PATH), exist_ok=True)
+    with open(STATE_PATH, "w", encoding="utf-8") as f:
+        json.dump(state, f, ensure_ascii=False, indent=1, sort_keys=True)
+
+
+def item_dt(it):
+    if it.get("pub") is not None:
+        return it["pub"]
+    y, m, d = it["date"]
+    return datetime(y, m, d, tzinfo=JST)
 
 
 if __name__ == "__main__":

@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
 <channel>
 <title>MonoQue ニュース</title>
 <link>https://monoque.jp/</link>
 <description>MonoQueのニュース新着一覧（非公式RSS）</description>
 <language>ja</language>
-<lastBuildDate>Thu, 26 Nov 2026 10:29:54 +0900</lastBuildDate>
+<lastBuildDate>Thu, 26 Nov 2026 10:39:45 +0900</lastBuildDate>
 <item>
 <title>EMO MILANO 2027来年10月、6年ぶりミラノ開催</title>
 <link>https://monoque.jp/news/7b87ea4ecb8e69411e00c2ea72e0640fe051e1a7/</link>
 <guid isPermaLink="true">https://monoque.jp/news/7b87ea4ecb8e69411e00c2ea72e0640fe051e1a7/</guid>
 <pubDate>Thu, 26 Nov 2026 00:00:00 +0900</pubDate>
 <category>製造・機械加工</category>
-<description>製造・機械加工</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;金属加工産業に特化した世界有数の国際見本市「EMO MILANO 2027」をイタリア工作機械・ロボット・オートメーション工業会（UCIMU-SISTEMI PER PRODURRE）が2027年10月4〜8日の5日間、フィエラミラノ展示会場で開催する。JIMTOF会期中に同工業会などが会見を開いて発表した。EMOはハノーバーとミラノで交互に開かれており、ミラノでの開催は6年ぶり。総展示面積20万平方㍍の全12ホールが開放される。&lt;/p&gt;&lt;p&gt;製造・機械加工&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 <item>
 <title>ソディック、ミツトヨと協業しMTフェルールの測定・判定を自動化</title>
@@ -20,7 +22,9 @@
 <guid isPermaLink="true">https://monoque.jp/news/7d1918bb0c0b9474851bbed97b24926e11b0ae8a/</guid>
 <pubDate>Wed, 25 Nov 2026 00:00:00 +0900</pubDate>
 <category>製造・機械加工</category>
-<description>製造・機械加工</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;ソディックは 11 月 24 日、ミツトヨと協業して MT フェルール専用の画像測定・クラス判定システム「 FPM-300 」（＝写真）を開発したと発表した。 2027 年１月に販売を始める。価格はオープンで、生産目標は年 20 台。 12 月１～５日に幕張メッセで開かれる「 IPF Japan 2026 （第 11 回国際プラスチックフェア）」に出展し、実機を披露する。&lt;/p&gt;&lt;p&gt;製造・機械加工&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 <item>
 <title>ムラテックフロンティア、樹脂成型工場の生産管理を効率化</title>
@@ -28,7 +32,9 @@
 <guid isPermaLink="true">https://monoque.jp/news/456f98b15c7d00042c7cf95e1d2e334f4125ee21/</guid>
 <pubDate>Tue, 24 Nov 2026 00:00:00 +0900</pubDate>
 <category>デジタル・AI</category>
-<description>デジタル・AI</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;量産による高い稼働率が求められる一方、多品種な原料や金型の管理など細かな段取りが欠かせないプラスチック成形の現場。数分の設備停止や材料切れが大きなロスに直結するなか、ムラテックフロンティアの成形工場生産管理システム「 MICS7 」は、生産・進捗管理のデジタル化で 30 年以上の歴史を持ち、累計 400 社を超える導入実績を築いてきた。&lt;/p&gt;&lt;p&gt;デジタル・AI&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 <item>
 <title>キヤノン、ArFドライ半導体露光装置 24年ぶり投入</title>
@@ -36,7 +42,9 @@
 <guid isPermaLink="true">https://monoque.jp/news/fb9945bf6b2468e60b4df1ec096005839429d4cb/</guid>
 <pubDate>Tue, 24 Nov 2026 00:00:00 +0900</pubDate>
 <category>製造・機械加工</category>
-<description>製造・機械加工</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;キヤノンは12月上旬、ArF（フッ化アルゴン）を光源とするドライ半導体露光装置「FPA-6300AS6」を発売する。同社が同装置における新製品を投入するのは24年ぶり。同社はi線、KrFの各半導体露光装置やナノインプリント半導体製造装置を含めた前工程向けの製品を拡充する構えだ。&lt;/p&gt;&lt;p&gt;製造・機械加工&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 <item>
 <title>スター精機、取出ロボ24年ぶり刷新</title>
@@ -44,7 +52,9 @@
 <guid isPermaLink="true">https://monoque.jp/news/4452b8b57b9fd92965fff71eccc74f593c38f563/</guid>
 <pubDate>Tue, 24 Nov 2026 00:00:00 +0900</pubDate>
 <category>ロボット</category>
-<description>ロボット</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;スター精機は射出成形機の取出ロボット「 LM シリーズ」を発表した。シリーズ刷新は 24 年ぶり。軸や部品を共通化し、必要箇所を交換できるモジュール式の採用で、導入後に可搬質量やリーチを柔軟に変更できるようにした。成形品の多様化や生産条件の変化に対応し、設備の長期活用を促す。&lt;/p&gt;&lt;p&gt;ロボット&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 <item>
 <title>長谷川工業がHasegawaFES開催、70年の歩み振り返る</title>
@@ -52,7 +62,9 @@
 <guid isPermaLink="true">https://monoque.jp/news/9905a1f1196eafd8d0ea6b8463dabbf836855f6c/</guid>
 <pubDate>Tue, 24 Nov 2026 00:00:00 +0900</pubDate>
 <category>工場・現場ツール</category>
-<description>工場・現場ツール</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;長谷川工業は 10 月 29 、 30 日の両日、心斎橋 PARCO で「 Hasegawa FES2026 」を開催した。今年 12 月に迎える創業 70 周年にちなみ、テーマは「 70 祭（さい）」。来年発売の新製品や主力製品に加え、往年の名作や歴代広告を展示し同社の歩みと未来を一挙に発信した。&lt;/p&gt;&lt;p&gt;工場・現場ツール&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 <item>
 <title>日東工器、創立70周年式典に470人</title>
@@ -60,7 +72,9 @@
 <guid isPermaLink="true">https://monoque.jp/news/d7846fd36fb0c8f3a644e48544ac558506cc2715/</guid>
 <pubDate>Fri, 20 Nov 2026 00:00:00 +0900</pubDate>
 <category>工場・現場ツール</category>
-<description>工場・現場ツール</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;日東工器は11月6日、創立70周年の記念式典とパーティーを都内のホテルで開き、同社の特約店・代理店などから約470人が出席した。記念式典で小形明誠社長は70年間にわたり支援を受けた出席者らに感謝の意を伝えた。来賓として訪れた山善の岸田貢司社長、YUASAの田村博之会長は祝辞を述べた。&lt;/p&gt;&lt;p&gt;工場・現場ツール&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 <item>
 <title>クリナップ、バス・洗面の提案システム刷新</title>
@@ -68,7 +82,9 @@
 <guid isPermaLink="true">https://monoque.jp/news/f026a79c8174d1a0d1f0b5daf8c7256b6b5f5986/</guid>
 <pubDate>Fri, 20 Nov 2026 00:00:00 +0900</pubDate>
 <category>くらし</category>
-<description>くらし</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;クリナップは商品見積りとイメージ画像を作成するプレゼンテーションシステム「ぷらん館」のシステムバスルーム版と洗面化粧台版を刷新し、11月2日からホームページで公開している。完成後の水まわり空間を具体的にイメージできるようにするとともに、提案から見積り提出までのプロセスを効率化する。&lt;/p&gt;&lt;p&gt;くらし&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 <item>
 <title>中村留精密工業、精度追求のATC型複合加工機</title>
@@ -76,7 +92,9 @@
 <guid isPermaLink="true">https://monoque.jp/news/8557e65239e4e9258bfe3df5049f84920075d53e/</guid>
 <pubDate>Fri, 20 Nov 2026 00:00:00 +0900</pubDate>
 <category>製造・機械加工</category>
-<description>製造・機械加工</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;中村留精密工業は、対向 2 主軸の ATC 型複合加工機「 RX-50 」を 2027 年 1 月に発売する。機械構造を追求し加工精度を高め、時計、医療、ジュエリーなど付加価値が高いワークで追い込み加工をなくし、一発で完成品を目指す。目標販売台数は月間 20 台。&lt;/p&gt;&lt;p&gt;製造・機械加工&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 <item>
 <title>東京機械製作所、FA事業向け「感謝の集い」に約70人</title>
@@ -84,7 +102,9 @@
 <guid isPermaLink="true">https://monoque.jp/news/45f75a56fd118322baeb2f0979839595ee3d61f3/</guid>
 <pubDate>Fri, 20 Nov 2026 00:00:00 +0900</pubDate>
 <category>製造・機械加工</category>
-<description>製造・機械加工</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;東京機械製作所（ TKS ）は 10 月 20 日、都内で FA 事業の取引先を招いた「感謝の集い」を開催した。昨年に続く 2 回目で、商社を中心に 32 社 71 人が参加した（前回 25 社 47 人）。仕入れ先や金融機関、報道関係者も顔をそろえた。&lt;/p&gt;&lt;p&gt;製造・機械加工&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 <item>
 <title>THK、低発熱のボールねじ</title>
@@ -92,7 +112,9 @@
 <guid isPermaLink="true">https://monoque.jp/news/00d2d3d4985678e03b7ba4cb92a24a8dea5041b6/</guid>
 <pubDate>Thu, 19 Nov 2026 00:00:00 +0900</pubDate>
 <category>工場・現場ツール</category>
-<description>工場・現場ツール</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;THK （東京都港区芝浦 2-12-10 、応用技術統括部 AE 部 =TEL.03-5730-3865 ）は 10 月 21 日、低発熱のボールねじ「 BPFP 」の受注を始めると発表し、 10 月 31 日まで東京で開かれた JIMTOF に出品した。&lt;/p&gt;&lt;p&gt;工場・現場ツール&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 <item>
 <title>OTW、配車マッチングプラットフォーム「TORAX」開設</title>
@@ -100,7 +122,9 @@
 <guid isPermaLink="true">https://monoque.jp/news/bf17f554f74ee9ef493f86740d2f8954af50d753/</guid>
 <pubDate>Thu, 19 Nov 2026 00:00:00 +0900</pubDate>
 <category>マテハン・物流</category>
-<description>マテハン・物流</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;物流関連サービスを展開する OTW （東京都北区）は 10 月、荷主と運送事業者をつなぐ配車マッチングプラットフォーム「 TORAX 」を開設した。&lt;/p&gt;&lt;p&gt;マテハン・物流&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 <item>
 <title>ティーエス、3D×2Dカメラでバラ積みピッキング</title>
@@ -108,7 +132,9 @@
 <guid isPermaLink="true">https://monoque.jp/news/1c3f57cb44a289f1624826e14d58dd5f52e0a204/</guid>
 <pubDate>Wed, 18 Nov 2026 00:00:00 +0900</pubDate>
 <category>マテハン・物流</category>
-<description>マテハン・物流</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;ロボット SIer のティーエス（静岡県浜松市）は 3D と 2D カメラを組み合わせたロボットピッキングシステムの提案を強化している。 10 月 16 日までの 2 日間、浜松市で開かれた「ハマロボ展」で、 3D ビジョンによるワークの位置・姿勢認識と 2D カメラによる刻印の読取りを組み合わせ、ピッキングから表裏判別、組付けまでの自動化を主に中小企業などに向けて実演した。&lt;/p&gt;&lt;p&gt;マテハン・物流&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 <item>
 <title>山善、主力海外メーカーの会合</title>
@@ -116,7 +142,9 @@
 <guid isPermaLink="true">https://monoque.jp/news/35a9f4f3549502034a2fdd68551e63907a21f197/</guid>
 <pubDate>Wed, 18 Nov 2026 00:00:00 +0900</pubDate>
 <category>製造・機械加工</category>
-<description>製造・機械加工</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;山善は 10 月 14 日、生産財事業の海外向け主力メーカーで組織する山善海外メーカー顧問会の第 5 回総会を神戸市内で開いた。海外の支社長・現法長らが参加し、メーカー各社の経営層らを前に海外事業の戦略を語った。&lt;/p&gt;&lt;p&gt;製造・機械加工&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 <item>
 <title>Mech-Mindが設立10周年、技術・サポート・人材で販売好調</title>
@@ -124,7 +152,9 @@
 <guid isPermaLink="true">https://monoque.jp/news/98e03f28d9b1cae8bd66cd9a389239b856d7948f/</guid>
 <pubDate>Tue, 17 Nov 2026 00:00:00 +0900</pubDate>
 <category>工場・現場ツール</category>
-<description>工場・現場ツール</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;中国の 3D カメラメーカーの Mech-Mind Robotics は 10 月 29 日、設立 10 周年および香港証券取引所上場を記念したイベントを東京・大田区の展示ショールーム兼トレーニングセンター「 Mech-Lab 」で実施した。日本法人（ Mech-Mind ）設立 5 周年にもあたる節目を迎え、ロボット関連メーカーや SIer 、報道関係者らが多数詰めかけた。&lt;/p&gt;&lt;p&gt;工場・現場ツール&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 <item>
 <title>ヤマザキマザック、AI エージェント活用のチャット機能</title>
@@ -132,7 +162,9 @@
 <guid isPermaLink="true">https://monoque.jp/news/8b0d66ca73d3eb885c8975a70bdea63d665f6a13/</guid>
 <pubDate>Tue, 17 Nov 2026 00:00:00 +0900</pubDate>
 <category>製造・機械加工</category>
-<description>製造・機械加工</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;ヤマザキマザックはクラウドサービス「 Mazak iCONNECT 」に、自社開発の AI エージェントを活用したチャットボット機能を 11 月に追加する。機械のアラームへの対処方法や操作方法を AI エージェントがチャット形式で回答し、問題解決までの時間短縮を図る狙い。なお同機能は Mazak iCONNECT の WEB サービスを通じ無償で利用できる。&lt;/p&gt;&lt;p&gt;製造・機械加工&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 <item>
 <title>現場を変える黒の上質工具。ロブテックス「J-CRAFT 99」がエアコン工事向けギアを強化中</title>
@@ -140,7 +172,9 @@
 <guid isPermaLink="true">https://monoque.jp/news/cf2206a68f9b59c915b601642c4a20e950a9e06c/</guid>
 <pubDate>Mon, 16 Nov 2026 00:00:00 +0900</pubDate>
 <category>工場・現場ツール</category>
-<description>工場・現場ツール</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;老舗工具メーカー、ロブテックスが 2023 年に立ち上げた上質工具ブランド「 J-CRAFT 99 」が、目下急拡大している。意欲的なペースで続々と新たな工具を投入。しかもその顔触れの多くを、「 LED ワークライト」「マグネットトレイ」「エアコンバルブツールプラス」など、従来の同社のラインナップからすると異色の工具が占めているのだ。「エビ印がなぜライトを？」と疑問に思うかもしれない。だが開発陣に話を聞いてみると、同社が J-CRAFT99 シリーズに込めた想いや使い手の困りごとを先回りした細かな配慮、ならではのこだわりポイントまで、 1 丁の工具に秘められた奥深い背景が見えてきた。&lt;/p&gt;&lt;p&gt;工場・現場ツール&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 <item>
 <title>安川電機、自律溶接ロボットをスポーツカー工房に導入</title>
@@ -148,7 +182,9 @@
 <guid isPermaLink="true">https://monoque.jp/news/6012dc910b9bbe918c4fd474f5c1cd287bbce89c/</guid>
 <pubDate>Mon, 16 Nov 2026 00:00:00 +0900</pubDate>
 <category>ロボット</category>
-<description>ロボット</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;安川電機はトヨタ自動車が手がける GAZOO Racing （モータースポーツ活動およびスポーツカーブランド）と共同で、 AI を活用した自律化ロボット生産技術を開発し、 9 月に「蒲郡 GR KART 工房」（愛知県蒲郡市）に導入した。この技術は両社が共同開発したアーク溶接技術「 SFA 工法（ Sequence Freezing Arc Welding ）」の知見を発展させたもので、ロボットが溶接条件の認識・判断から品質確認、補正までを自律的に行う。&lt;/p&gt;&lt;p&gt;ロボット&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 <item>
 <title>コロナ、アウトドア向けエアコンがグッドD賞</title>
@@ -156,7 +192,9 @@
 <guid isPermaLink="true">https://monoque.jp/news/a548c9b27c090e30e1c3494418f0f3e78e5e17dd/</guid>
 <pubDate>Mon, 16 Nov 2026 00:00:00 +0900</pubDate>
 <category>くらし</category>
-<description>くらし</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;コロナのアウトドアブランド「 OUTFIELD （アウトフィールド）」のポータブルエアコン「 BREEZE BOX 」が 2026 年度グッドデザイン賞（日本デザイン振興会主催）を受賞した。「ほどよい堅牢さと軽快さがあり、設置や移動時の姿にも説得力がある」（審査委員）と評価された。&lt;/p&gt;&lt;p&gt;くらし&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 <item>
 <title>山善、省スペース自動化セル</title>
@@ -164,7 +202,9 @@
 <guid isPermaLink="true">https://monoque.jp/news/ce988bd6eec0a7ad959c979a4606b908ebf28130/</guid>
 <pubDate>Mon, 16 Nov 2026 00:00:00 +0900</pubDate>
 <category>製造・機械加工</category>
-<description>製造・機械加工</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;山善は自動化の構想・導入から加工環境改善や現場のデジタル化まで、製造現場の課題解決をワンストップで支援できることをアピールしている。 10 月 31 日まで東京で開かれた JIMTOF では段取り替えがしやすいブラザー工業の小型マシニングセンタ（ MC ）「 S300Xd2 」で加工したワークをファナックの協働ロボット「 CRX-20iA/L 」で脱着・搬送し、東京精密の 3 次元座標測定機「 ZEISS DuraMax 」によるインライン計測で品質保証する様子を見せた。&lt;/p&gt;&lt;p&gt;製造・機械加工&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 <item>
 <title>台湾貿易センター、日本企業向けビジネス商談会を2026年11月に開催</title>
@@ -172,7 +212,9 @@
 <guid isPermaLink="true">https://monoque.jp/news/06ffca777cab9df08d90e6aa7fc7f3bd7c8260f6/</guid>
 <pubDate>Fri, 13 Nov 2026 00:00:00 +0900</pubDate>
 <category>トピックス</category>
-<description>トピックス</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;台湾貿易センター（TAITRA）と経済部貿易署は日本企業向けビジネス商談会「台湾精密加工部品調達商談会 台湾ハイエンド金属製品・ハンドツール調達商談会」を11月に大阪、東京で開催する。多くの台湾のサプライヤー企業と自由に商談できる機会になる。会場には通訳を常に配備しているため日本語で安心して商談を円滑に進められ、日本のバイヤーから好評という。&lt;/p&gt;&lt;p&gt;トピックス&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 <item>
 <title>造船など7社、アンモニア燃料船の社会実装へ</title>
@@ -180,7 +222,9 @@
 <guid isPermaLink="true">https://monoque.jp/news/4790c6699360b9bf5b125b47048785c8f1aff623/</guid>
 <pubDate>Fri, 13 Nov 2026 00:00:00 +0900</pubDate>
 <category>マテハン・物流</category>
-<description>マテハン・物流</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;今治造船、川崎汽船、旭洋造船、 JERA 、新来島どっく、日本郵船、日本シップヤードの 7 社は 10 月 27 日、東京・港区で共同会見を開き、中部地区におけるアンモニア燃料サプライチェーンの構築と、同供給網を活用するアンモニア燃料自動車専用船 4 隻の建造・運航に共同で取り組むと発表した。アンモニア燃料を使う大型船が建造されるのは国内初。背景には日本が 2035 年に建造量を 24 年比で倍増させる目標を掲げていることと、中韓が存在感を高める造船市場で世界シェアを奪還したい思いがある。&lt;/p&gt;&lt;p&gt;マテハン・物流&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 <item>
 <title>日東工器、液だれ防ぐ調温機器向け流体継手</title>
@@ -188,7 +232,9 @@
 <guid isPermaLink="true">https://monoque.jp/news/b29c5ca098b2026ced63d86fa473da23432cce86/</guid>
 <pubDate>Fri, 13 Nov 2026 00:00:00 +0900</pubDate>
 <category>工場・現場ツール</category>
-<description>工場・現場ツール</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;日東工器（東京都大田区仲池上 2-9-4 、 TEL.03-3755-1111 ）は温調機器配管向けに分離時の液だれを低減する流体継手「ゼロスピルカプラ フランジ固定型」を 10 月中旬に発売した。半導体製造装置やデータセンターなどで冷却液を循環させる配管が数多く使用されていることに対応する。&lt;/p&gt;&lt;p&gt;工場・現場ツール&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 <item>
 <title>牧野フライス製作所、金型加工向け3軸立MC</title>
@@ -196,7 +242,9 @@
 <guid isPermaLink="true">https://monoque.jp/news/f556356425fe8eff5d36f35d2452aca300c99f0a/</guid>
 <pubDate>Fri, 13 Nov 2026 00:00:00 +0900</pubDate>
 <category>製造・機械加工</category>
-<description>製造・機械加工</description>
+<description>&lt;img src="https://monoque.jp/assets/images/favicon.png" alt=""&gt;&lt;p&gt;牧野フライス製作所は 10 月 23 日、金型加工向けの 3 軸制御立形マシニングセンタ（ MC ）「 V600 」（ストローク X1050 ・ Y650 ・ Z450 ㍉メートル、最大ワーク重量 1200 ㌔グラム）の販売を始め、 10 月 31 日まで開かれた JIMTOF で重切削加工を実演した。職人にしか出せなかった高精度を実現できる V シリーズとして販売してきた V800 と V900 に加えたかたち。&lt;/p&gt;&lt;p&gt;製造・機械加工&lt;/p&gt;</description>
+<media:content url="https://monoque.jp/assets/images/favicon.png" medium="image"/>
+<media:thumbnail url="https://monoque.jp/assets/images/favicon.png"/>
 </item>
 </channel>
 </rss>

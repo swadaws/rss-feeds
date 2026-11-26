@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
 <channel>
 <title>ニュースイッチ 新着記事</title>
 <link>https://newswitch.jp/</link>
 <description>ニュースイッチの新着記事一覧（非公式RSS、日付は初回検出時刻で代用）</description>
 <language>ja</language>
-<lastBuildDate>Thu, 26 Nov 2026 10:29:53 +0900</lastBuildDate>
+<lastBuildDate>Thu, 26 Nov 2026 10:39:19 +0900</lastBuildDate>
 <item>
 <title>米AIDC整備鈍化の懸念も…電線大手4社の通期見通し、強気を維持</title>
 <link>https://newswitch.jp/p/50915</link>
 <guid isPermaLink="true">https://newswitch.jp/p/50915</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>古河電工</category>
-<description>古河電工</description>
+<description>&lt;img src="https://images.newswitch.jp/images/99d3de05-5730-4c4b-8df7-486d333b380b.jpg" alt=""&gt;&lt;p&gt;光ケーブル好調 米中間選挙で共和党が大敗し、民主党が勢力を拡大したことを受け、ＡＩ（人工知能）データセンター（ＤＣ）関連投資への影響を懸念する見方が浮上している。民主党内には電力消費の増大や環境負荷へ...&lt;/p&gt;&lt;p&gt;古河電工&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/99d3de05-5730-4c4b-8df7-486d333b380b.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/99d3de05-5730-4c4b-8df7-486d333b380b.jpg"/>
 </item>
 <item>
 <title>工作機械はフィジカルAIデータのマザーマシンになるポテンシャルを秘めている</title>
@@ -20,7 +22,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50908</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>工作機械</category>
-<description>工作機械</description>
+<description>&lt;img src="https://images.newswitch.jp/images/5724c811-f81d-431f-8bfb-f3513d90a295.jpg" alt=""&gt;&lt;p&gt;視覚基盤“マザーマシン”に フィジカルＡＩ（人工知能）の実装に向けて、環境側に配置するセンサーとの統合が重要になっている。ロボット自身のカメラだけでは死角が多く、環境側から補う必要があるためだ。ただカメ...&lt;/p&gt;&lt;p&gt;工作機械&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/5724c811-f81d-431f-8bfb-f3513d90a295.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/5724c811-f81d-431f-8bfb-f3513d90a295.jpg"/>
 </item>
 <item>
 <title>山善・YUASA・椿本興業…機械・工具商社8社の通期見通し、全社増収営業増益の理由</title>
@@ -28,7 +32,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50913</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>決算</category>
-<description>決算</description>
+<description>&lt;img src="https://images.newswitch.jp/images/c8bcb0fa-05ed-45ce-9e23-6ef49d7dedb9.jpg" alt=""&gt;&lt;p&gt;機械・工具商社８社の２０２７年３月期連結業績は、全社が増収・営業増益を見込む。半導体やＡＩ（人工知能）、データセンター（ＤＣ）関連の設備投資がけん引する。国内の人手不足を背景としたロボットや省人化設備...&lt;/p&gt;&lt;p&gt;決算&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/c8bcb0fa-05ed-45ce-9e23-6ef49d7dedb9.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/c8bcb0fa-05ed-45ce-9e23-6ef49d7dedb9.jpg"/>
 </item>
 <item>
 <title>地域金融と課題解決でコラボ【挑戦する企業・日本生命保険】</title>
@@ -36,7 +42,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50920</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>日本生命保険</category>
-<description>日本生命保険</description>
+<description>&lt;img src="https://images.newswitch.jp/images/0176c8f0-6b18-4c50-8fb0-e9b87f45fec1.png" alt=""&gt;&lt;p&gt;人口減少や医療人材不足、環境問題など地域社会が抱える課題は深刻さを増している。日本生命保険は地域金融機関との連携を強化し、地域経済の活性化や企業の成長支援に力を入れる。従来の保険販売を中心とした関係か...&lt;/p&gt;&lt;p&gt;日本生命保険&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/0176c8f0-6b18-4c50-8fb0-e9b87f45fec1.png" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/0176c8f0-6b18-4c50-8fb0-e9b87f45fec1.png"/>
 </item>
 <item>
 <title>シチズン時計、腕時計2モデル投入…朝・夜の霧を表現</title>
@@ -44,7 +52,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50914</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>腕時計</category>
-<description>腕時計</description>
+<description>&lt;img src="https://images.newswitch.jp/images/7a92de3d-8019-42dc-9dd1-d448fd19abe9.jpg" alt=""&gt;&lt;p&gt;シチズン時計はチタニウムウオッチの「ＣＩＴＩＺＥＮ ＡＴＴＥＳＡ（シチズン アテッサ）」シリーズから、朝霧や夜霧をイメージした腕時計２モデルを１２月３日に発売する。夜霧を表現した「Ｈａｚｙ Ｂｌａｃｋ...&lt;/p&gt;&lt;p&gt;腕時計&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/7a92de3d-8019-42dc-9dd1-d448fd19abe9.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/7a92de3d-8019-42dc-9dd1-d448fd19abe9.jpg"/>
 </item>
 <item>
 <title>半導体・基板材を共同購買、東海理化・アルプスアルパイン・日本精機が連携に至った背景</title>
@@ -52,7 +62,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50911</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>地政学リスク</category>
-<description>地政学リスク</description>
+<description>&lt;img src="https://images.newswitch.jp/images/c16bb7e7-82b5-44b8-96a6-a0e014941f0e.jpg" alt=""&gt;&lt;p&gt;東海理化、アルプスアルパイン、日本精機の３社は２４日、サプライチェーン（供給網）の強靱（きょうじん）化に向け、共同購買に関する基本合意書を締結したと発表した。早ければ２０２７年春以降に半導体や基板材、...&lt;/p&gt;&lt;p&gt;地政学リスク&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/c16bb7e7-82b5-44b8-96a6-a0e014941f0e.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/c16bb7e7-82b5-44b8-96a6-a0e014941f0e.jpg"/>
 </item>
 <item>
 <title>ベンツ・BMW・フォルクスワーゲン…輸入車市場に変化の波、円安・コスト高が収益圧迫</title>
@@ -60,7 +72,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50909</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>ベンツ</category>
-<description>ベンツ</description>
+<description>&lt;img src="https://images.newswitch.jp/images/d4283a8a-8b96-45c7-a5e7-b789b9236916.jpg" alt=""&gt;&lt;p&gt;EV新興台頭、顧客基盤の拡大不可欠 日本の輸入車業界が変化の波にさらされている。為替の円安による輸入コスト上昇がインポーター（輸入元）の収益を圧迫。米中の電気自動車（ＥＶ）新興ブランドが台頭する中、商品...&lt;/p&gt;&lt;p&gt;ベンツ&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/d4283a8a-8b96-45c7-a5e7-b789b9236916.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/d4283a8a-8b96-45c7-a5e7-b789b9236916.jpg"/>
 </item>
 <item>
 <title>「新年会・忘年会」実施企業が13ポイント減…働き方変化、飲酒しない従業員増</title>
@@ -68,7 +82,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50907</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>忘年会</category>
-<description>忘年会</description>
+<description>&lt;img src="https://images.newswitch.jp/images/3e178108-a037-4138-9776-7d79a4b251cd.jpg" alt=""&gt;&lt;p&gt;新年会・忘年会を実施する企業の割合はコロナ禍前に比べて１０ポイント以上低下―。帝国データバンクがまとめた「社内イベントに関する企業の動向アンケート」で、こうした状況が浮き彫りとなった。新年会・忘年会を...&lt;/p&gt;&lt;p&gt;忘年会&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/3e178108-a037-4138-9776-7d79a4b251cd.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/3e178108-a037-4138-9776-7d79a4b251cd.jpg"/>
 </item>
 <item>
 <title>ドローン配送の強み生かす…エアロネクスト、タワマン配送サービスの勝算</title>
@@ -76,7 +92,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50900</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>タワーマンション</category>
-<description>タワーマンション</description>
+<description>&lt;img src="https://images.newswitch.jp/images/29c9fc96-a863-4e02-8b59-4f3e09708dfd.png" alt=""&gt;&lt;p&gt;エアロネクスト（東京都渋谷区、田路圭輔社長）は、子会社のネクストデリバリー（山梨県小菅村）とともに、ドローンを活用した新たなスマート物流サービスを全国各地で展開している。現在、展開する自治体は小菅村な...&lt;/p&gt;&lt;p&gt;タワーマンション&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/29c9fc96-a863-4e02-8b59-4f3e09708dfd.png" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/29c9fc96-a863-4e02-8b59-4f3e09708dfd.png"/>
 </item>
 <item>
 <title>半導体の後工程高度化へ…東北大など、産学・異業種連携で研究エコシステム</title>
@@ -84,7 +102,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50899</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>半導体</category>
-<description>半導体</description>
+<description>&lt;img src="https://images.newswitch.jp/images/bea7c43c-ebcc-4405-be2f-3ec4f7122ae6.jpg" alt=""&gt;&lt;p&gt;東北大学は半導体の後工程の高度化を目指し、先端パッケージングや、異なる種類の半導体チップを積むヘテロ集積化に関する研究開発コンソーシアムを立ち上げた。東北大の研究拠点や次世代放射光施設「ナノテラス」を...&lt;/p&gt;&lt;p&gt;半導体&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/bea7c43c-ebcc-4405-be2f-3ec4f7122ae6.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/bea7c43c-ebcc-4405-be2f-3ec4f7122ae6.jpg"/>
 </item>
 <item>
 <title>軽量・薄型で手頃な価格帯…デルが投入、ノートパソコン新製品の仕様</title>
@@ -92,7 +112,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50903</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>パソコン</category>
-<description>パソコン</description>
+<description>&lt;img src="https://images.newswitch.jp/images/ea18eec7-9a51-4c8d-a452-e3d1172d98a0.jpg" alt=""&gt;&lt;p&gt;デル・テクノロジーズ（東京都千代田区、ジョン・ロボトム社長）は、個人向けノートパソコン（ＰＣ）「Ｄｅｌｌ １４Ｓ＝写真」を発売した。６月発売の個人向けハイエンド機種「ＸＰＳ１３」と同様に、軽量・薄型を...&lt;/p&gt;&lt;p&gt;パソコン&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/ea18eec7-9a51-4c8d-a452-e3d1172d98a0.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/ea18eec7-9a51-4c8d-a452-e3d1172d98a0.jpg"/>
 </item>
 <item>
 <title>AI・DC普及で商機広がる、業績回復続く東芝が問われること</title>
@@ -100,7 +122,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50901</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>東芝</category>
-<description>東芝</description>
+<description>&lt;img src="https://images.newswitch.jp/images/3236184f-95e2-4b72-9723-2319c9421e54.jpg" alt=""&gt;&lt;p&gt;「再興計画」着々、稼ぐ力強化 東芝の業績回復が続く。ＡＩ（人工知能）・データセンター（ＤＣ）の普及などを背景に主力の電力機器やインフラ関連が伸びる。ＡＩ・ＤＣ市場の拡大傾向は続く見込みで、東芝の商機は...&lt;/p&gt;&lt;p&gt;東芝&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/3236184f-95e2-4b72-9723-2319c9421e54.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/3236184f-95e2-4b72-9723-2319c9421e54.jpg"/>
 </item>
 <item>
 <title>「適正原価」3割上昇？、荷主側が試算に衝撃…トラック輸送に転換点</title>
@@ -108,7 +132,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50898</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>トラック輸送</category>
-<description>トラック輸送</description>
+<description>&lt;img src="https://images.newswitch.jp/images/3fa43e2d-32e6-427d-a2aa-2fbab7331264.jpg" alt=""&gt;&lt;p&gt;ドライバー待遇改善 供給網全体で仕組みを 国内物流の要であるトラック輸送の担い手が減る中、ドライバーの待遇改善は喫緊の課題だ。国土交通省は改正貨物自動車運送事業法（トラック新法）に...&lt;/p&gt;&lt;p&gt;トラック輸送&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/3fa43e2d-32e6-427d-a2aa-2fbab7331264.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/3fa43e2d-32e6-427d-a2aa-2fbab7331264.jpg"/>
 </item>
 <item>
 <title>蓄電池産業、成長の柱に…徳島バッテリーバレイ構想の今</title>
@@ -116,7 +142,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50905</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>徳島バッテリーバレイ構想</category>
-<description>徳島バッテリーバレイ構想</description>
+<description>&lt;img src="https://images.newswitch.jp/images/2ee235f0-510a-442c-b292-3ac82d37d1ea.jpg" alt=""&gt;&lt;p&gt;徳島県が蓄電池産業を地域経済の柱に育てようとしている。２０２４年７月に策定した「徳島バッテリーバレイ構想」を軸に、県内に集積する電池材料や部材、製造設備などの強みを生かしながら、企業誘致と県内企業の育...&lt;/p&gt;&lt;p&gt;徳島バッテリーバレイ構想&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/2ee235f0-510a-442c-b292-3ac82d37d1ea.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/2ee235f0-510a-442c-b292-3ac82d37d1ea.jpg"/>
 </item>
 <item>
 <title>フィジカルAIの主戦場に!?…ロボと環境の情報統合、工作機械が突破口になる理由</title>
@@ -124,7 +152,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50902</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>フィジカルAI</category>
-<description>フィジカルAI</description>
+<description>&lt;img src="https://images.newswitch.jp/images/ca37e9a1-26dd-4e27-8f5d-44c171de28c2.jpg" alt=""&gt;&lt;p&gt;ワーク供給回収を題材に フィジカルＡＩ（人工知能）の実装が進んでいる。フィジカルＡＩではロボットを遠隔操作してデータを集め、ＡＩに学習させて作業を自動化する。ただロボット自身が持つカメラやセンサーだけ...&lt;/p&gt;&lt;p&gt;フィジカルAI&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/ca37e9a1-26dd-4e27-8f5d-44c171de28c2.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/ca37e9a1-26dd-4e27-8f5d-44c171de28c2.jpg"/>
 </item>
 <item>
 <title>人的資本経営の支援手厚く【挑戦する企業・日本生命保険】</title>
@@ -132,7 +162,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50910</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>日本生命保険</category>
-<description>日本生命保険</description>
+<description>&lt;img src="https://images.newswitch.jp/images/82c54dac-cc5d-4dbb-a3b4-7ba403d01552.jpg" alt=""&gt;&lt;p&gt;人手不足や働き方の多様化を背景に、企業にとって従業員の健康維持や人材定着が重要な経営課題となっている。日本生命保険は保険や福利厚生、健康経営支援などを組み合わせ、企業の人的資本経営を後押しする。従来の...&lt;/p&gt;&lt;p&gt;日本生命保険&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/82c54dac-cc5d-4dbb-a3b4-7ba403d01552.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/82c54dac-cc5d-4dbb-a3b4-7ba403d01552.jpg"/>
 </item>
 <item>
 <title>その名は「いざなみ」…日本郵船、世界初のアンモニア燃料アンモニア輸送船</title>
@@ -140,7 +172,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50904</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>船舶</category>
-<description>船舶</description>
+<description>&lt;img src="https://images.newswitch.jp/images/38056f93-83ff-40c7-9ec7-e4a483ce44f1.jpg" alt=""&gt;&lt;p&gt;日本郵船はジャパンマリンユナイテッド（横浜市西区）の有明事業所（熊本県長洲町）で建造されたアンモニア燃料アンモニア輸送船を「いざなみ＝写真」と命名した。同船は主機・補機ともにアンモニア燃料エンジンを採...&lt;/p&gt;&lt;p&gt;船舶&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/38056f93-83ff-40c7-9ec7-e4a483ce44f1.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/38056f93-83ff-40c7-9ec7-e4a483ce44f1.jpg"/>
 </item>
 <item>
 <title>半導体装置、高水準の出荷が止まらない…「中国での投資も想定を上回っている」</title>
@@ -148,7 +182,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50897</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>半導体装置</category>
-<description>半導体装置</description>
+<description>&lt;img src="https://images.newswitch.jp/images/9a4a5275-954f-4ce3-9e2d-f9a5ceb87743.jpg" alt=""&gt;&lt;p&gt;日本半導体製造装置協会（ＳＥＡＪ）がまとめた１０月の日本製半導体製造装置の販売高（速報値、８―１０月の３カ月移動平均ベース、輸出含む）によると、総額は前年同月比４４・６％増の５９８４億２１００万円だっ...&lt;/p&gt;&lt;p&gt;半導体装置&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/9a4a5275-954f-4ce3-9e2d-f9a5ceb87743.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/9a4a5275-954f-4ce3-9e2d-f9a5ceb87743.jpg"/>
 </item>
 <item>
 <title>トンネル工事作業を省人化…「覆工型枠」遠隔で位置制御、戸田建設がセット作業自動化</title>
@@ -156,7 +192,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50896</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>山岳トンネル</category>
-<description>山岳トンネル</description>
+<description>&lt;img src="https://images.newswitch.jp/images/25226fe1-97e8-4424-b6ae-4199a541312f.jpg" alt=""&gt;&lt;p&gt;戸田建設は山岳トンネルの覆工作業向けに、覆工コンクリートを打設するために使用する移動式の大型型枠「セントル」を、タブレット端末によるボタン操作一つで所定の位置に自動でセットできる「セントル自動セットシ...&lt;/p&gt;&lt;p&gt;山岳トンネル&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/25226fe1-97e8-4424-b6ae-4199a541312f.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/25226fe1-97e8-4424-b6ae-4199a541312f.jpg"/>
 </item>
 <item>
 <title>12/3（木）開催！「MONO × TECH」×「工場管理」コラボセミナー</title>
@@ -164,7 +202,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50890</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>MONOTECH</category>
-<description>MONOTECH</description>
+<description>&lt;img src="https://images.newswitch.jp/images/b1c8b8b7-eca3-4655-bd1b-3e722fbb441f.png" alt=""&gt;&lt;p&gt;12/2（水）～4（金）までインテックス大阪で開催する「MONO × TECH」と、現場改善雑誌「工場管理」のコラボセミナーが、12/3（木）会場内で開催する。「MONO × TECH」は、省人化、自動化、デジタル活用、設備最適化...&lt;/p&gt;&lt;p&gt;MONOTECH&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/b1c8b8b7-eca3-4655-bd1b-3e722fbb441f.png" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/b1c8b8b7-eca3-4655-bd1b-3e722fbb441f.png"/>
 </item>
 <item>
 <title>太陽熱でクリーン水素量産、新潟大学が早期技術確立に挑む</title>
@@ -172,7 +212,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50895</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>太陽熱</category>
-<description>太陽熱</description>
+<description>&lt;img src="https://images.newswitch.jp/images/c09eb7f5-ec0d-4f7d-8b2b-1129e38f557e.jpg" alt=""&gt;&lt;p&gt;新潟大学は太陽熱から水素をつくる技術の開発に取り組んでいる。太陽日射が豊富な海外で太陽光を集め、その熱で水を分解することにより製造工程で二酸化炭素（ＣＯ２）が発生しないクリーンな水素を生成し、日本へ輸...&lt;/p&gt;&lt;p&gt;太陽熱&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/c09eb7f5-ec0d-4f7d-8b2b-1129e38f557e.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/c09eb7f5-ec0d-4f7d-8b2b-1129e38f557e.jpg"/>
 </item>
 <item>
 <title>損保大手3グループ、当期利益見通し分かれる…サイバー攻撃の懸念も</title>
@@ -180,7 +222,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50886</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>損害保険</category>
-<description>損害保険</description>
+<description>&lt;img src="https://images.newswitch.jp/images/ed632f65-4cb5-4320-b7f4-f7ce4a82cc09.jpg" alt=""&gt;&lt;p&gt;損害保険大手３グループの２０２７年３月期連結業績見通しは、金融市場の変動などを背景に当期利益の見通しが分かれた。東京海上ホールディングス（ＨＤ）は通期予想を据え置き、ＭＳ＆ＡＤインシュアランスグループ...&lt;/p&gt;&lt;p&gt;損害保険&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/ed632f65-4cb5-4320-b7f4-f7ce4a82cc09.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/ed632f65-4cb5-4320-b7f4-f7ce4a82cc09.jpg"/>
 </item>
 <item>
 <title>ホンダが命運かける次世代HVの試金石、「アヴァンシア」来春投入…SDV化で新たな価値</title>
@@ -188,7 +232,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50892</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>ホンダ</category>
-<description>ホンダ</description>
+<description>&lt;img src="https://images.newswitch.jp/images/d64a918b-738a-4ca4-835e-07ca2bb317dd.jpg" alt=""&gt;&lt;p&gt;ホンダは２０２７年春に販売予定の新型スポーツ多目的車（ＳＵＶ）「アヴァンシア」を世界初公開した。２９年度までにグローバルで１５車種投入する次世代ハイブリッド車（ＨＶ）商品の第１弾。プラットフォーム（車...&lt;/p&gt;&lt;p&gt;ホンダ&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/d64a918b-738a-4ca4-835e-07ca2bb317dd.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/d64a918b-738a-4ca4-835e-07ca2bb317dd.jpg"/>
 </item>
 <item>
 <title>ITバブル崩壊時の記憶よぎる…米市場、IPO件数が減速</title>
@@ -196,7 +242,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50888</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>ＩＰＯ</category>
-<description>ＩＰＯ</description>
+<description>&lt;img src="https://images.newswitch.jp/images/1537dd9b-1690-4ac2-8a57-6a192d09ae42.jpg" alt=""&gt;&lt;p&gt;先端ＡＩ（人工知能）開発を手がける米アンソロピックの上場が市場の関心を集めている。６月のスペースＸを超える過去最大級の新規株式公開（ＩＰＯ）案件だが、同国のＩＰＯ件数は２０２６年に入り減少に転じている...&lt;/p&gt;&lt;p&gt;ＩＰＯ&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/1537dd9b-1690-4ac2-8a57-6a192d09ae42.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/1537dd9b-1690-4ac2-8a57-6a192d09ae42.jpg"/>
 </item>
 <item>
 <title>「フィジカルAI」実装加速…経産省、ロボット基盤モデル支援</title>
@@ -204,7 +252,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50894</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>フィジカルAI</category>
-<description>フィジカルAI</description>
+<description>&lt;img src="https://images.newswitch.jp/images/ec233c1c-1f45-4751-aa20-58f3f5895b4b.png" alt=""&gt;&lt;p&gt;経済産業省がＡＩ（人工知能）を活用してロボットや機器を自律制御する「フィジカルＡＩ」の産業基盤づくりを加速している。経産省と新エネルギー・産業技術総合開発機構（ＮＥＤＯ）は、生成ＡＩの開発力強化プロジ...&lt;/p&gt;&lt;p&gt;フィジカルAI&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/ec233c1c-1f45-4751-aa20-58f3f5895b4b.png" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/ec233c1c-1f45-4751-aa20-58f3f5895b4b.png"/>
 </item>
 <item>
 <title>三菱マテリアルは当期益3.9倍…非鉄8社の通期見通し、AI特需が追い風も漂い始めた先行き不透明感</title>
@@ -212,13 +262,18 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50893</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>三菱マテリアル</category>
-<description>三菱マテリアル</description>
+<description>&lt;img src="https://images.newswitch.jp/images/c7cec514-76b4-4bb4-a3a5-611aa212ca40.jpg" alt=""&gt;&lt;p&gt;非鉄金属業界はＡＩ（人工知能）サーバーやデータセンター（ＤＣ）特需の恩恵を受け、半導体材料や高機能銅箔の設備投資が相次いでいる。また、銅や金など金属価格の上昇も追い風となり、業績は底堅く推移する見通し...&lt;/p&gt;&lt;p&gt;三菱マテリアル&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/c7cec514-76b4-4bb4-a3a5-611aa212ca40.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/c7cec514-76b4-4bb4-a3a5-611aa212ca40.jpg"/>
 </item>
 <item>
 <title>【講演】トヨタ・河合満氏が語る「ＡＩ時代のモノづくりの真髄」、聴講募集</title>
 <link>https://newswitch.jp/p/50891</link>
 <guid isPermaLink="true">https://newswitch.jp/p/50891</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
+<description>&lt;img src="https://images.newswitch.jp/images/68e0888d-3631-4c23-a24e-c5b272932339.jpg" alt=""&gt;&lt;p&gt;日刊工業新聞社とモノづくり日本会議は11月27日（金）、東京・八重洲で「工場長サミット30s」を開催する。注目は、トヨタ自動車アドバイザーで元副社長の河合満氏による講演。15歳で技能者養成所に入り、鍛造の現場...&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/68e0888d-3631-4c23-a24e-c5b272932339.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/68e0888d-3631-4c23-a24e-c5b272932339.jpg"/>
 </item>
 <item>
 <title>熟練技能者不足･長時間労働問題の解決に貢献…YKK APが溶接代替工法､建築サッシ接着で固定</title>
@@ -226,7 +281,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50889</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>建設現場</category>
-<description>建設現場</description>
+<description>&lt;img src="https://images.newswitch.jp/images/d83b2608-b439-47b0-8da9-5c0a49b9411b.jpg" alt=""&gt;&lt;p&gt;工程増やさず安全・時短 ＹＫＫ ＡＰは鉄筋コンクリート（ＲＣ）造り建築物のサッシ固定方法を「溶接」から「接着」に置き換える新工法「タフ―フィット工法」を開発した。２７日から受注を開始する。新工法は新た...&lt;/p&gt;&lt;p&gt;建設現場&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/d83b2608-b439-47b0-8da9-5c0a49b9411b.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/d83b2608-b439-47b0-8da9-5c0a49b9411b.jpg"/>
 </item>
 <item>
 <title>需要拡大「リチウム」…東北大学、鉱石から低温抽出する技術開発</title>
@@ -234,7 +291,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50887</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>リチウム</category>
-<description>リチウム</description>
+<description>&lt;img src="https://images.newswitch.jp/images/f8474af6-0a96-4796-a862-c798b0b08ed2.jpg" alt=""&gt;&lt;p&gt;東北大学の王佳婕助教と木村唯乃学部生（研究当時）、渡邉則昭教授は、鉱石からリチウムを低温で抽出する技術を開発した。水熱反応を利用してリチウムを溶出させる。プロセス温度を１０００度Ｃから３００度Ｃに低減...&lt;/p&gt;&lt;p&gt;リチウム&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/f8474af6-0a96-4796-a862-c798b0b08ed2.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/f8474af6-0a96-4796-a862-c798b0b08ed2.jpg"/>
 </item>
 <item>
 <title>店舗作業時間7割減・AI分析で売れ筋優先陳列…ファミマ、飲料補充ロボット導入</title>
@@ -242,7 +301,9 @@
 <guid isPermaLink="true">https://newswitch.jp/p/50884</guid>
 <pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
 <category>ロボット</category>
-<description>ロボット</description>
+<description>&lt;img src="https://images.newswitch.jp/images/78f8d20e-0f4c-4b6f-b6d2-1135427c6969.jpg" alt=""&gt;&lt;p&gt;ファミリーマートは１９日、飲料補充ロボットと、在庫を自動で把握するデジタル棚を組み合わせたシステム（写真）を２０２７年１月から店舗に順次導入すると発表した。販売実績をＡＩ（人工知能）が分析し、売れ筋商...&lt;/p&gt;&lt;p&gt;ロボット&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/78f8d20e-0f4c-4b6f-b6d2-1135427c6969.jpg" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/78f8d20e-0f4c-4b6f-b6d2-1135427c6969.jpg"/>
 </item>
 </channel>
 </rss>

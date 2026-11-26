@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
 <channel>
 <title>美術手帖 ニュース</title>
 <link>https://bijutsutecho.com/</link>
 <description>美術手帖のニュース新着一覧（非公式RSS）</description>
 <language>ja</language>
-<lastBuildDate>Thu, 26 Nov 2026 10:29:52 +0900</lastBuildDate>
+<lastBuildDate>Thu, 26 Nov 2026 10:38:50 +0900</lastBuildDate>
 <item>
 <title>アートフェアは作家に何をもたらすのか？ 台湾発「WHATZ」が目指す国際交流のかたち</title>
 <link>https://bijutsutecho.com/magazine/news/promotion/33357</link>
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/promotion/33357</guid>
 <pubDate>Thu, 26 Nov 2026 00:00:00 +0900</pubDate>
 <category>PROMOTION</category>
-<description>PROMOTION</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33357/main/1794901322596_fc862829c134e59a7648fcc2fb235b0e.jpg?v=14&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;作品の展示・販売にとどまらず、若手アーティストの育成や国際交流にも力を注ぐ、台湾発の「WHATZ International Contemporary Art Fair」。今年は金…&lt;/p&gt;&lt;p&gt;PROMOTION&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33357/main/1794901322596_fc862829c134e59a7648fcc2fb235b0e.jpg?v=14&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33357/main/1794901322596_fc862829c134e59a7648fcc2fb235b0e.jpg?v=14&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>「恵比寿映像祭2026」が来年2月に開催。総合テーマは「あそびのルール｜Rules of Play」</title>
@@ -20,7 +22,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/exhibition/33376</guid>
 <pubDate>Wed, 25 Nov 2026 00:00:00 +0900</pubDate>
 <category>EXHIBITION</category>
-<description>EXHIBITION</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33376/main/1795503110409_e317d8c2b21e4110c3675c274b905b58.jpg?v=11&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;東京・恵比寿の東京都写真美術館で、映像文化とアートの現在を横断的に紹介する国際フェスティバル「恵比寿映像祭2027」が開催される。会期は2027年2月5日〜21日。&lt;/p&gt;&lt;p&gt;EXHIBITION&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33376/main/1795503110409_e317d8c2b21e4110c3675c274b905b58.jpg?v=11&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33376/main/1795503110409_e317d8c2b21e4110c3675c274b905b58.jpg?v=11&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>「辰野登恵子 多次元の絵画」展が長野県立美術館で開催。最大級の絵画が15年ぶりに公開へ</title>
@@ -28,7 +32,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/exhibition/33355</guid>
 <pubDate>Wed, 25 Nov 2026 00:00:00 +0900</pubDate>
 <category>EXHIBITION</category>
-<description>EXHIBITION</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33355/main/1795134791580_1aefa862e9043b776c894e11b78421ad.jpg?v=10&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;長野県立美術館で、リニューアル・オープン5周年記念展として「辰野登恵子 多次元の絵画」が開催される。会期は2027年1月16日〜3月22日。&lt;/p&gt;&lt;p&gt;EXHIBITION&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33355/main/1795134791580_1aefa862e9043b776c894e11b78421ad.jpg?v=10&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33355/main/1795134791580_1aefa862e9043b776c894e11b78421ad.jpg?v=10&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>アート・バーゼル香港2027の概要が発表。世界から232軒が参加、会場構成も刷新へ</title>
@@ -36,7 +42,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/market/33375</guid>
 <pubDate>Wed, 25 Nov 2026 00:00:00 +0900</pubDate>
 <category>MARKET</category>
-<description>MARKET</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33375/main/1795485583823_c83d60048b23c96adbb12481f0edf254.jpg?v=10&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;2027年3月25日〜27日に開催されるアート・バーゼル香港の概要が発表された。40以上の国と地域から232軒のギャラリーが参加し、うち31軒が初出展。会場のレイアウトも刷新し、キ…&lt;/p&gt;&lt;p&gt;MARKET&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33375/main/1795485583823_c83d60048b23c96adbb12481f0edf254.jpg?v=10&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33375/main/1795485583823_c83d60048b23c96adbb12481f0edf254.jpg?v=10&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>「近藤亜樹 吾は、わたしは、」（大田区立龍子記念館）開幕レポート。ふたりの画家の「生命力」に触れる</title>
@@ -44,7 +52,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/report/33374</guid>
 <pubDate>Tue, 24 Nov 2026 00:00:00 +0900</pubDate>
 <category>REPORT</category>
-<description>REPORT</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33374/main/1795483438151_589860e1cbece6903b92058cc51a7b67.jpg?v=9&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;近代日本画の巨匠・川端龍子と現代アーティスト・近藤亜樹の作品をともに紹介する「近藤亜樹 吾は、わたしは、」が、東京・大田区の龍子記念館で開幕した。高橋龍太郎コレクションからの出品作…&lt;/p&gt;&lt;p&gt;REPORT&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33374/main/1795483438151_589860e1cbece6903b92058cc51a7b67.jpg?v=9&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33374/main/1795483438151_589860e1cbece6903b92058cc51a7b67.jpg?v=9&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>歴史のイメージを揺さぶる。ニュー・ミュージアムでのアーサー・ジャファ「私はトニーだ」展が問う、見ることの倫理</title>
@@ -52,7 +62,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/report/33370</guid>
 <pubDate>Tue, 24 Nov 2026 00:00:00 +0900</pubDate>
 <category>REPORT</category>
-<description>REPORT</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33370/main/1795335584299_f711f33406ca4f17c6cc9e7126472d25.jpg?v=10&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;ニューヨークのニュー・ミュージアムで、アーサー・ジャファの過去最大規模となる個展「私はトニーだ（I Am Tony）」が開催されている。会期は2027年1月4日まで。約40年にわた…&lt;/p&gt;&lt;p&gt;REPORT&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33370/main/1795335584299_f711f33406ca4f17c6cc9e7126472d25.jpg?v=10&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33370/main/1795335584299_f711f33406ca4f17c6cc9e7126472d25.jpg?v=10&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>目［mé］の《まさゆめ》が東京・奥多摩に出現。5年の歳月を経て立ち返る「夢の原点」とは</title>
@@ -60,7 +72,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/report/33372</guid>
 <pubDate>Mon, 23 Nov 2026 00:00:00 +0900</pubDate>
 <category>REPORT</category>
-<description>REPORT</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33372/main/1795247580425_b294b793c412faf0148f344a0611e513.jpg?v=9&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;現代アートチーム・目［mé］によるプロジェクト《まさゆめ》が、東京・奥多摩町に登場した。2021年の代々木公園でのお披露目から、じつに5年ぶりの再展示となる。&lt;/p&gt;&lt;p&gt;REPORT&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33372/main/1795247580425_b294b793c412faf0148f344a0611e513.jpg?v=9&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33372/main/1795247580425_b294b793c412faf0148f344a0611e513.jpg?v=9&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>「ニコライ・アストルップ 創造する庭」（東京ステーションギャラリー）開幕レポート。ノルウェーを代表する「もうひとりの巨匠」、日本初の回顧展</title>
@@ -68,7 +82,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/report/33371</guid>
 <pubDate>Sun, 22 Nov 2026 00:00:00 +0900</pubDate>
 <category>REPORT</category>
-<description>REPORT</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33371/main/1795156331111_cf09343eeb448a983762ddaaf67d22c9.jpg?v=2&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;ノルウェーを代表する画家のひとり、ニコライ・アストルップ（1880〜1928）の日本初となる大規模回顧展「ニコライ・アストルップ 創造する庭」が、東京・丸の内の東京ステーションギャ…&lt;/p&gt;&lt;p&gt;REPORT&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33371/main/1795156331111_cf09343eeb448a983762ddaaf67d22c9.jpg?v=2&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33371/main/1795156331111_cf09343eeb448a983762ddaaf67d22c9.jpg?v=2&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>「MAFIN 2026」開幕レポート。1200年の祈りが続く宮島で、現代美術は何を問いかけるのか</title>
@@ -76,7 +92,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/report/33366</guid>
 <pubDate>Sat, 21 Nov 2026 00:00:00 +0900</pubDate>
 <category>REPORT</category>
-<description>REPORT</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33366/main/1795078546526_c29693781c2324035ec15b139d9b5035.jpg?v=2&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;広島・宮島の大聖院を舞台とするアートプロジェクト「MAFIN 2026（Miyajima Art Festival in the Narrative 2026）」が11月20日に開…&lt;/p&gt;&lt;p&gt;REPORT&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33366/main/1795078546526_c29693781c2324035ec15b139d9b5035.jpg?v=2&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33366/main/1795078546526_c29693781c2324035ec15b139d9b5035.jpg?v=2&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>ゴッホ作品が過去最高記録の304億円で落札。サザビーズの一夜の売上も約1241億円同社史上最高に</title>
@@ -84,7 +102,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/market/33367</guid>
 <pubDate>Fri, 20 Nov 2026 00:00:00 +0900</pubDate>
 <category>MARKET</category>
-<description>MARKET</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33367/main/1795136597483_9391a27670b7519d17fd8aeb75149251.jpg?v=9&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;ニューヨークのサザビーズで11月18日、フィンセント・ファン・ゴッホの最晩年の風景画《Châtaigniers en fleurs》（1890）が1億9040万ドル（約303億75…&lt;/p&gt;&lt;p&gt;MARKET&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33367/main/1795136597483_9391a27670b7519d17fd8aeb75149251.jpg?v=9&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33367/main/1795136597483_9391a27670b7519d17fd8aeb75149251.jpg?v=9&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>今週末に見たい展覧会ベスト21。ナムジュン・パイク、マリー・アントワネットから目［mé］まで</title>
@@ -92,7 +112,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/exhibition/33364</guid>
 <pubDate>Fri, 20 Nov 2026 00:00:00 +0900</pubDate>
 <category>EXHIBITION</category>
-<description>EXHIBITION</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33364/main/1795074195108_4f333e0b01da55b0a80184954b99674c.jpg?v=25&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;今週閉幕する／開幕した展覧会のなかから、とくに注目したいものをピックアップしてお届け。なお、最新情報は各館公式サイトを参照してほしい。&lt;/p&gt;&lt;p&gt;EXHIBITION&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33364/main/1795074195108_4f333e0b01da55b0a80184954b99674c.jpg?v=25&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33364/main/1795074195108_4f333e0b01da55b0a80184954b99674c.jpg?v=25&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>企画展示「アイヌ民族と博覧会 ―150年の経験―」（国立歴史民俗博物館）開幕レポート。博覧会という場で交差する「声」と「関係性」を見つめる</title>
@@ -100,7 +122,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/report/33200</guid>
 <pubDate>Fri, 20 Nov 2026 00:00:00 +0900</pubDate>
 <category>REPORT</category>
-<description>REPORT</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33200/main/1792626497063_817f5bc4c6b9dc0ca257d21bbbe5a453.jpg?v=65&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;千葉県佐倉市にある国立歴史民俗博物館で、企画展示「アイヌ民族と博覧会 ―150年の経験―」が11月29日まで開催されている。会場の様子をレポートする。&lt;/p&gt;&lt;p&gt;REPORT&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33200/main/1792626497063_817f5bc4c6b9dc0ca257d21bbbe5a453.jpg?v=65&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33200/main/1792626497063_817f5bc4c6b9dc0ca257d21bbbe5a453.jpg?v=65&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>「関島寿子 かごについてのかご」（菊池寛実記念 智美術館）開幕レポート。バスケタリー制作を通じて「編むとは何か」を問い続ける</title>
@@ -108,7 +132,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/report/33359</guid>
 <pubDate>Fri, 20 Nov 2026 00:00:00 +0900</pubDate>
 <category>REPORT</category>
-<description>REPORT</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33359/main/1794966728580_92930847a1c4fe0ed26062de724e73dc.jpg?v=29&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;東京・虎ノ門の菊池寛実記念 智美術館で、植物素材でバスケタリー作品を制作する関島寿子の展覧会「関島寿子 かごについてのかご」が開幕した。会期は2027年3月22日まで。会場の様子を…&lt;/p&gt;&lt;p&gt;REPORT&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33359/main/1794966728580_92930847a1c4fe0ed26062de724e73dc.jpg?v=29&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33359/main/1794966728580_92930847a1c4fe0ed26062de724e73dc.jpg?v=29&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>「東京建築祭2027」が開催決定。新たな舞台として「新宿」エリアが追加</title>
@@ -116,7 +142,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/exhibition/33362</guid>
 <pubDate>Fri, 20 Nov 2026 00:00:00 +0900</pubDate>
 <category>EXHIBITION</category>
-<description>EXHIBITION</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33362/main/1794980293959_058bc06773a8d38f593a77185394a25c.jpg?v=4&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;東京の多様な建築を舞台にした大規模な建築体験イベント「東京建築祭2027」が、2027年5月15日〜23日の9日間にわたり開催される。&lt;/p&gt;&lt;p&gt;EXHIBITION&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33362/main/1794980293959_058bc06773a8d38f593a77185394a25c.jpg?v=4&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33362/main/1794980293959_058bc06773a8d38f593a77185394a25c.jpg?v=4&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>キム・ヨンジュンと吉田ユニのコラボレーション写真展「Face to face」が大阪へ巡回。日韓俳優62名が作品に出演</title>
@@ -124,7 +152,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/promotion/33353</guid>
 <pubDate>Fri, 20 Nov 2026 00:00:00 +0900</pubDate>
 <category>PROMOTION</category>
-<description>PROMOTION</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33353/main/1794886934071_4385dc5d190e694860eaa16435e0e954.jpg?v=23&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;大阪・梅田のグラングリーン大阪内のVS.で、韓国のフォトグラファー・キム・ヨンジュンと日本のアートディレクター・吉田ユニによるコラボレーション写真展「KIM YEONG JUN ×…&lt;/p&gt;&lt;p&gt;PROMOTION&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33353/main/1794886934071_4385dc5d190e694860eaa16435e0e954.jpg?v=23&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33353/main/1794886934071_4385dc5d190e694860eaa16435e0e954.jpg?v=23&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>「あなたが世界を読むために」（東京都美術館）開幕レポート。100周年の節目に5名の作家とひらく「世界との対話」</title>
@@ -132,7 +162,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/report/33358</guid>
 <pubDate>Thu, 19 Nov 2026 00:00:00 +0900</pubDate>
 <category>REPORT</category>
-<description>REPORT</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33358/main/1795001214282_42c4b2b3d29673fe3c1c85d30fff253c.jpg?v=30&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;東京・上野の東京都美術館で、開館100周年記念事業の締め括りとなる企画展「東京都美術館開館100周年記念 あなたが世界を読むために」が開幕した。会期は2027年1月11日まで。会場…&lt;/p&gt;&lt;p&gt;REPORT&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33358/main/1795001214282_42c4b2b3d29673fe3c1c85d30fff253c.jpg?v=30&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33358/main/1795001214282_42c4b2b3d29673fe3c1c85d30fff253c.jpg?v=30&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>上海のアートシーンはピークを過ぎたのか？ 国際的な注目の変化と、新たな可能性を探る</title>
@@ -140,7 +172,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/market/33361</guid>
 <pubDate>Thu, 19 Nov 2026 00:00:00 +0900</pubDate>
 <category>MARKET</category>
-<description>MARKET</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33361/main/1794978019319_a42963a08ef74cff2bcdf772ace9132e.jpg?v=30&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;かつて世界のアート関係者が集まり、中国のアート市場の急成長を象徴する都市だった上海。しかし、中国経済の減速や国際的なアートイベントの増加を背景に、その存在感は変わりつつある。上海の…&lt;/p&gt;&lt;p&gt;MARKET&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33361/main/1794978019319_a42963a08ef74cff2bcdf772ace9132e.jpg?v=30&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33361/main/1794978019319_a42963a08ef74cff2bcdf772ace9132e.jpg?v=30&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>「ART TAIPEI 2026」開催レポート。日本の現代アートの特別セクションと、台湾マーケットが示す「共生」の現在地</title>
@@ -148,7 +182,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/report/33302</guid>
 <pubDate>Thu, 19 Nov 2026 00:00:00 +0900</pubDate>
 <category>REPORT</category>
-<description>REPORT</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33302/main/1793953042910_e8cb295c53feb0c0b614754ac9744a4f.jpg?v=12&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;台湾を代表する国際アートフェアの第33回「ART TAIPEI 2026」が、台北世界貿易センターで開催された。会期は10月30日〜11月2日。国内外から127のギャラリーが集結し…&lt;/p&gt;&lt;p&gt;REPORT&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33302/main/1793953042910_e8cb295c53feb0c0b614754ac9744a4f.jpg?v=12&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33302/main/1793953042910_e8cb295c53feb0c0b614754ac9744a4f.jpg?v=12&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>草間彌生が約24億円で最高落札記録を更新。サザビーズ現代美術セールは総額約604億円</title>
@@ -156,7 +192,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/market/33360</guid>
 <pubDate>Wed, 18 Nov 2026 00:00:00 +0900</pubDate>
 <category>MARKET</category>
-<description>MARKET</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33360/main/1794963415469_69f74a8cf6372771e7c0a9bb3bc501d9.jpg?v=8&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;ニューヨークのサザビーズで開催された現代美術のイブニングセールで、草間彌生の《No. 3P.B.》が1510万ドル（約24億円）で落札され、草間のオークション最高落札記録を更新した…&lt;/p&gt;&lt;p&gt;MARKET&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33360/main/1794963415469_69f74a8cf6372771e7c0a9bb3bc501d9.jpg?v=8&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33360/main/1794963415469_69f74a8cf6372771e7c0a9bb3bc501d9.jpg?v=8&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>マティスの《かたつむり》が衣服とダンスに。HOMME PLISSÉ ISSEY MIYAKEの特別展が銀座で開催中</title>
@@ -164,7 +202,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/exhibition/33352</guid>
 <pubDate>Tue, 17 Nov 2026 00:00:00 +0900</pubDate>
 <category>EXHIBITION</category>
-<description>EXHIBITION</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33352/main/1794879171973_18fc2b2ec3a577f2f73120c4424d4aaf.jpg?v=6&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;HOMME PLISSÉ ISSEY MIYAKEによる特別展「OPEN STUDIO: The Snail」が、東京・銀座のISSEY MIYAKE GINZA｜CUBEで開催さ…&lt;/p&gt;&lt;p&gt;EXHIBITION&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33352/main/1794879171973_18fc2b2ec3a577f2f73120c4424d4aaf.jpg?v=6&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33352/main/1794879171973_18fc2b2ec3a577f2f73120c4424d4aaf.jpg?v=6&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>安藤忠雄と「もの派」の対話。ヴェネチアのピノー・コレクション プンタ・デラ・ドガーナで展覧会が来春開催へ</title>
@@ -172,7 +212,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/exhibition/33351</guid>
 <pubDate>Tue, 17 Nov 2026 00:00:00 +0900</pubDate>
 <category>EXHIBITION</category>
-<description>EXHIBITION</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33351/main/1794877514117_86f1e25c9743c0247f077ca186437074.jpg?v=6&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;安藤忠雄と「もの派」に焦点を当てた展覧会「Tadao Ando &amp;amp; Mono-ha. The Five Elements」が、ヴェネチアのプンタ・デラ・ドガーナで2027年3月21…&lt;/p&gt;&lt;p&gt;EXHIBITION&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33351/main/1794877514117_86f1e25c9743c0247f077ca186437074.jpg?v=6&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33351/main/1794877514117_86f1e25c9743c0247f077ca186437074.jpg?v=6&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>大阪府20世紀美術コレクションとともに子供たちの作品を展示。「つくってみようよ展覧会 アートと出会う瞬間 ペティルはピースフレイバー」が開催</title>
@@ -180,7 +222,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/exhibition/33349</guid>
 <pubDate>Tue, 17 Nov 2026 00:00:00 +0900</pubDate>
 <category>EXHIBITION</category>
-<description>EXHIBITION</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33349/main/1794824649181_6341ec6882d5c20b9d40e33b61ea5832.jpg?v=8&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;大阪・中之島のアートエリアB1で、「大阪府20世紀美術コレクション」の作品と、それらを用いたワークショップで生まれた子供たちの制作物などを並置する展覧会「つくってみようよ展覧会 ア…&lt;/p&gt;&lt;p&gt;EXHIBITION&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33349/main/1794824649181_6341ec6882d5c20b9d40e33b61ea5832.jpg?v=8&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33349/main/1794824649181_6341ec6882d5c20b9d40e33b61ea5832.jpg?v=8&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>福岡市美術館で「山内光枝展 潮ノ記」が開催。海に生きる人々の生活や文化に焦点を</title>
@@ -188,7 +232,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/promotion/33159</guid>
 <pubDate>Tue, 17 Nov 2026 00:00:00 +0900</pubDate>
 <category>PROMOTION</category>
-<description>PROMOTION</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33159/main/1794482256124_5a3c4aeaf8c96d7500feb8f32cc86aa7.jpg?v=23&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;福岡市美術館で、企画展×福岡現代作家ファイル 2026「山内光枝展 潮ノ記」が開催されている。会期は12月20日まで。&lt;/p&gt;&lt;p&gt;PROMOTION&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33159/main/1794482256124_5a3c4aeaf8c96d7500feb8f32cc86aa7.jpg?v=23&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33159/main/1794482256124_5a3c4aeaf8c96d7500feb8f32cc86aa7.jpg?v=23&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>「下町」のイメージを超える墨田の芸術祭とは？ 神野真吾が語る「すみだ五彩の芸術祭」と、その見どころ</title>
@@ -196,7 +242,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/promotion/33290</guid>
 <pubDate>Mon, 16 Nov 2026 00:00:00 +0900</pubDate>
 <category>PROMOTION</category>
-<description>PROMOTION</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33290/main/1793856232283_13a17462c9019d30282c6509d7965559.jpg?v=36&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;東京・墨田区内各所で、初開催となる「すみだ五彩の芸術祭」が開催されている。会期は9月4日〜12月20日。「すみだの五彩」をテーマに、古民家や工場、大学キャンパスなどを舞台として、街…&lt;/p&gt;&lt;p&gt;PROMOTION&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33290/main/1793856232283_13a17462c9019d30282c6509d7965559.jpg?v=36&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33290/main/1793856232283_13a17462c9019d30282c6509d7965559.jpg?v=36&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>シャネルのアート誌『ARTS &amp; CULTURE』第2号が刊行。シンディ・シャーマン、パティ・スミスらが参加</title>
@@ -204,7 +252,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/headline/33345</guid>
 <pubDate>Mon, 16 Nov 2026 00:00:00 +0900</pubDate>
 <category>HEADLINE</category>
-<description>HEADLINE</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33345/main/1794794008926_496ff10fa1309254ff424ced879d0327.jpg?v=8&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;CHANEL Culture Fund（シャネル文化基金）が発行する年刊誌『ARTS &amp;amp; CULTURE』の第2号が刊行された。シンディ・シャーマンによる新作が表紙と誌面を飾り、パ…&lt;/p&gt;&lt;p&gt;HEADLINE&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33345/main/1794794008926_496ff10fa1309254ff424ced879d0327.jpg?v=8&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33345/main/1794794008926_496ff10fa1309254ff424ced879d0327.jpg?v=8&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>大田区立龍子記念館で「近藤亜樹 吾は、わたしは、」が開催。川端龍子と現代絵画が時代を超えて共鳴</title>
@@ -212,7 +262,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/exhibition/33334</guid>
 <pubDate>Mon, 16 Nov 2026 00:00:00 +0900</pubDate>
 <category>EXHIBITION</category>
-<description>EXHIBITION</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33334/main/1794552961569_a36da1b58b14affba0c1e5fb7a594b05.jpg?v=5&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;東京・大森の大田区立龍子記念館で、現代美術コレクター・高橋龍太郎のコレクションとの連携企画「川端龍子プラスワン（後期）」として、アーティスト・近藤亜樹を招聘した「近藤亜樹 吾は、わ…&lt;/p&gt;&lt;p&gt;EXHIBITION&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33334/main/1794552961569_a36da1b58b14affba0c1e5fb7a594b05.jpg?v=5&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33334/main/1794552961569_a36da1b58b14affba0c1e5fb7a594b05.jpg?v=5&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>彫刻の森美術館で「カナガワ ポトガラヒー 出張浅田撮影局｜箱根編」が開催。浅田政志が「横浜写真」で神奈川4町を切り取る</title>
@@ -220,7 +272,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/exhibition/33336</guid>
 <pubDate>Mon, 16 Nov 2026 00:00:00 +0900</pubDate>
 <category>EXHIBITION</category>
-<description>EXHIBITION</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33336/main/1794555636987_4afeb0be08d8d5a61158bd4b3c9ec67a.jpg?v=4&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;神奈川・箱根の彫刻の森美術館で、写真家・浅田政志による展覧会「カナガワ ポトガラヒー 出張浅田撮影局｜箱根編」が開催される。会期は2027年1月16日〜3月22日。&lt;/p&gt;&lt;p&gt;EXHIBITION&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33336/main/1794555636987_4afeb0be08d8d5a61158bd4b3c9ec67a.jpg?v=4&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33336/main/1794555636987_4afeb0be08d8d5a61158bd4b3c9ec67a.jpg?v=4&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>横浜ユーラシア文化館で「敦煌・シルクロードの風が立つー平山郁夫と江上波夫の足跡」が開催。莫高窟の世界遺産登録40周年を記念</title>
@@ -228,7 +282,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/exhibition/33333</guid>
 <pubDate>Sun, 15 Nov 2026 00:00:00 +0900</pubDate>
 <category>EXHIBITION</category>
-<description>EXHIBITION</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33333/main/1794551755636_0d3d064a9dd4a8aa72c7cecb664937f9.jpg?v=5&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;横浜・日本大通りの横浜ユーラシア文化館で、莫高窟世界遺産登録40周年「敦煌・シルクロードの風が立つー平山郁夫と江上波夫の足跡」が開催。資料展示のほか、日本画家の平山郁夫、作家の井上…&lt;/p&gt;&lt;p&gt;EXHIBITION&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33333/main/1794551755636_0d3d064a9dd4a8aa72c7cecb664937f9.jpg?v=5&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33333/main/1794551755636_0d3d064a9dd4a8aa72c7cecb664937f9.jpg?v=5&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>オルセー美術館所蔵 いまを生きる歓び」（東京都美術館）開幕レポート。ゴッホ《星月夜》、ミレー《落穂拾い》が上野に</title>
@@ -236,7 +292,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/report/33332</guid>
 <pubDate>Sat, 14 Nov 2026 00:00:00 +0900</pubDate>
 <category>REPORT</category>
-<description>REPORT</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33332/main/1794547863527_399ffba1647f74c50bd10e5c446b8a82.jpg?v=5&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;東京・上野の東京都美術館で、「東京都美術館開館100周年記念 オルセー美術館所蔵 いまを生きる歓び」が開幕した。開館40周年を迎えたパリのオルセー美術館との共同企画となる本展の見ど…&lt;/p&gt;&lt;p&gt;REPORT&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33332/main/1794547863527_399ffba1647f74c50bd10e5c446b8a82.jpg?v=5&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33332/main/1794547863527_399ffba1647f74c50bd10e5c446b8a82.jpg?v=5&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 <item>
 <title>シャネルがナショナル・ポートレート・ギャラリーの写真分野を支援。新たなキュレーター職を設立</title>
@@ -244,7 +302,9 @@
 <guid isPermaLink="true">https://bijutsutecho.com/magazine/news/headline/33320</guid>
 <pubDate>Sat, 14 Nov 2026 00:00:00 +0900</pubDate>
 <category>HEADLINE</category>
-<description>HEADLINE</description>
+<description>&lt;img src="https://bt.imgix.net/magazine/33320/main/1794546077200_53e514764fd69db26f90b673e1051d50.jpg?v=10&amp;amp;cs=origin&amp;amp;q=90&amp;amp;fm=jpg&amp;amp;fit=crop&amp;amp;crop=faces%2Cedges&amp;amp;w=1200&amp;amp;h=630" alt=""&gt;&lt;p&gt;ナショナル・ポートレート・ギャラリーとCHANEL Culture Fund（シャネル文化基金）が、写真専門のキュレーター職を新設する。2021年から続く両者の協働の新たな取り組み…&lt;/p&gt;&lt;p&gt;HEADLINE&lt;/p&gt;</description>
+<media:content url="https://bt.imgix.net/magazine/33320/main/1794546077200_53e514764fd69db26f90b673e1051d50.jpg?v=10&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630" medium="image"/>
+<media:thumbnail url="https://bt.imgix.net/magazine/33320/main/1794546077200_53e514764fd69db26f90b673e1051d50.jpg?v=10&amp;cs=origin&amp;q=90&amp;fm=jpg&amp;fit=crop&amp;crop=faces%2Cedges&amp;w=1200&amp;h=630"/>
 </item>
 </channel>
 </rss>

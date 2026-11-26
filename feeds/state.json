@@ -120,11 +120,6 @@
    "img": "https://bt.imgix.net/magazine/33200/main/1792626497063_817f5bc4c6b9dc0ca257d21bbbe5a453.jpg?v=65&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
    "tries": 0
   },
-  "https://bijutsutecho.com/magazine/news/report/33302": {
-   "desc": "台湾を代表する国際アートフェアの第33回「ART TAIPEI 2026」が、台北世界貿易センターで開催された。会期は10月30日〜11月2日。国内外から127のギャラリーが集結し…",
-   "img": "https://bt.imgix.net/magazine/33302/main/1793953042910_e8cb295c53feb0c0b614754ac9744a4f.jpg?v=12&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
-   "tries": 0
-  },
   "https://bijutsutecho.com/magazine/news/report/33332": {
    "desc": "東京・上野の東京都美術館で、「東京都美術館開館100周年記念 オルセー美術館所蔵 いまを生きる歓び」が開幕した。開館40周年を迎えたパリのオルセー美術館との共同企画となる本展の見ど…",
    "img": "https://bt.imgix.net/magazine/33332/main/1794547863527_399ffba1647f74c50bd10e5c446b8a82.jpg?v=5&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
@@ -415,11 +410,6 @@
    "img": "https://monoque.jp/assets/images/favicon.png",
    "tries": 0
   },
-  "https://monoque.jp/news/b29c5ca098b2026ced63d86fa473da23432cce86/": {
-   "desc": "日東工器（東京都大田区仲池上 2-9-4 、 TEL.03-3755-1111 ）は温調機器配管向けに分離時の液だれを低減する流体継手「ゼロスピルカプラ フランジ固定型」を 10 月中旬に発売した。半導体製造装置やデータセンターなどで冷却液を循環させる配管が数多く使用されていることに対応する。",
-   "img": "https://monoque.jp/assets/images/favicon.png",
-   "tries": 0
-  },
   "https://monoque.jp/news/bf17f554f74ee9ef493f86740d2f8954af50d753/": {
    "desc": "物流関連サービスを展開する OTW （東京都北区）は 10 月、荷主と運送事業者をつなぐ配車マッチングプラットフォーム「 TORAX 」を開設した。",
    "img": "https://monoque.jp/assets/images/favicon.png",
@@ -442,11 +432,6 @@
   },
   "https://monoque.jp/news/f026a79c8174d1a0d1f0b5daf8c7256b6b5f5986/": {
    "desc": "クリナップは商品見積りとイメージ画像を作成するプレゼンテーションシステム「ぷらん館」のシステムバスルーム版と洗面化粧台版を刷新し、11月2日からホームページで公開している。完成後の水まわり空間を具体的にイメージできるようにするとともに、提案から見積り提出までのプロセスを効率化する。",
-   "img": "https://monoque.jp/assets/images/favicon.png",
-   "tries": 0
-  },
-  "https://monoque.jp/news/f556356425fe8eff5d36f35d2452aca300c99f0a/": {
-   "desc": "牧野フライス製作所は 10 月 23 日、金型加工向けの 3 軸制御立形マシニングセンタ（ MC ）「 V600 」（ストローク X1050 ・ Y650 ・ Z450 ㍉メートル、最大ワーク重量 1200 ㌔グラム）の販売を始め、 10 月 31 日まで開かれた JIMTOF で重切削加工を実演した。職人にしか出せなかった高精度を実現できる V シリーズとして販売してきた V800 と V900 に加えたかたち。",
    "img": "https://monoque.jp/assets/images/favicon.png",
    "tries": 0
   },
@@ -618,6 +603,91 @@
   "https://newswitch.jp/p/50920": {
    "desc": "人口減少や医療人材不足、環境問題など地域社会が抱える課題は深刻さを増している。日本生命保険は地域金融機関との連携を強化し、地域経済の活性化や企業の成長支援に力を入れる。従来の保険販売を中心とした関係か...",
    "img": "https://images.newswitch.jp/images/0176c8f0-6b18-4c50-8fb0-e9b87f45fec1.png",
+   "tries": 0
+  },
+  "https://www.webuomo.jp/beauty/topic/11-13_lelabo/": {
+   "desc": null,
+   "img": null,
+   "tries": 1
+  },
+  "https://www.webuomo.jp/culture/news/2026-11-20-CWAGvQ/": {
+   "desc": "フランスのファッションブランド「LEMAIRE（ルメール）」が、2026年11月26日（木）より、東京・恵比寿の「LEMAIRE EBISU（ルメール 恵比寿）」で写真展「A Box of Impressions, Tokyo」を開催。2026年春にパリで開催された写真展に続く第2弾で、21名の写真家による作品が集結する。",
+   "img": "https://img.webuomo.jp/article/sns/image/e4/e4801585-4e35-4dea-8a5f-6866b7c6f7ae-1200x630.jpg",
+   "tries": 0
+  },
+  "https://www.webuomo.jp/fashion/matome/SZvFbA/": {
+   "desc": null,
+   "img": null,
+   "tries": 1
+  },
+  "https://www.webuomo.jp/fashion/news/2026-11-24-BefjQQ/": {
+   "desc": null,
+   "img": null,
+   "tries": 1
+  },
+  "https://www.webuomo.jp/fashion/special/a01_arknets2611/": {
+   "desc": null,
+   "img": null,
+   "tries": 1
+  },
+  "https://www.webuomo.jp/fashion/special/a01_lululemon2611/": {
+   "desc": null,
+   "img": null,
+   "tries": 1
+  },
+  "https://www.webuomo.jp/fashion/topic/2026-10-30-mariha_w/": {
+   "desc": null,
+   "img": null,
+   "tries": 1
+  },
+  "https://www.webuomo.jp/fashion/topic/iAMnlQ/": {
+   "desc": null,
+   "img": null,
+   "tries": 1
+  },
+  "https://www.webuomo.jp/life/topic/2026-10-28-tavo/": {
+   "desc": null,
+   "img": null,
+   "tries": 1
+  },
+  "https://www.webuomo.jp/life/topic/2026-11-25-briefing/": {
+   "desc": "日頃からキャリーケースを高頻度で使う二人が、高い堅牢性を誇るブリーフィングの「HD」と、軽快な操作性が魅力の「SD」を試した。",
+   "img": "https://img.webuomo.jp/article/sns/image/10/1065fdff-2615-4f41-96ce-d8ae796c6037-1280x720.jpg",
+   "tries": 0
+  },
+  "https://www.webuomo.jp/sneaker/news/2026-11-20-bCLOJQ/": {
+   "desc": null,
+   "img": null,
+   "tries": 1
+  },
+  "https://www.webuomo.jp/uomolist/down200-2026aw/": {
+   "desc": null,
+   "img": null,
+   "tries": 1
+  },
+  "https://www.webuomo.jp/uomolist/lightouter30-2026aw/": {
+   "desc": null,
+   "img": null,
+   "tries": 1
+  },
+  "https://www.webuomo.jp/uomolist/shibutsu/": {
+   "desc": null,
+   "img": null,
+   "tries": 1
+  },
+  "https://www.webuomo.jp/uomolist/wallet30-202627winter/": {
+   "desc": null,
+   "img": null,
+   "tries": 1
+  },
+  "https://www.webuomo.jp/watch/special/a01_alange-soehne2611/": {
+   "desc": null,
+   "img": null,
+   "tries": 1
+  },
+  "https://www.webuomo.jp/watch/special/a01_cartier2611/": {
+   "desc": "カルティエ ウォッチ コレクターでありメゾンのアンバサダーを務める俳優・賀来賢人さん。なぜ熱烈にカルティエの時計に惹かれるのか。デザインやそれを支え...",
+   "img": "https://img.webuomo.jp/article/sns/image/7c/7c1e2ab8-7f87-419f-95cb-7ec15bc00b56-1200x630.jpg",
    "tries": 0
   }
  },

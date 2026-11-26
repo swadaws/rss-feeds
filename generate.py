@@ -34,23 +34,134 @@ SECTION_ROOT_RE = re.compile(r"^/[^/]+/$")
 SECTION_SUB_RE = re.compile(r"^/[^/]+/[^/]+/$")
 
 
+HEADERS = {
+    "User-Agent": USER_AGENT,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "ja,en;q=0.5",
+}
+
+
+def decode(resp):
+    """Decode a response as UTF-8 when possible. apparent_encoding
+    can guess Latin-1 for Japanese pages, which decodes without
+    error but produces mojibake, so it is only the fallback for
+    pages that are not valid UTF-8 (e.g. Shift_JIS)."""
+    try:
+        return resp.content.decode("utf-8")
+    except UnicodeDecodeError:
+        resp.encoding = resp.apparent_encoding or "utf-8"
+        return resp.text
+
+
 def fetch(url):
-    headers = {
-        "User-Agent": USER_AGENT,
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "Accept-Language": "ja,en;q=0.5",
-    }
     last_exc = None
     for attempt in range(3):
         try:
-            resp = requests.get(url, headers=headers, timeout=30)
+            resp = requests.get(url, headers=HEADERS, timeout=30)
             resp.raise_for_status()
-            resp.encoding = resp.apparent_encoding or "utf-8"
-            return resp.text
+            return decode(resp)
         except Exception as exc:  # transient errors: retry with backoff
             last_exc = exc
             time.sleep(2 * (attempt + 1))
     raise last_exc
+
+
+def fetch_once(url):
+    resp = requests.get(url, headers=HEADERS, timeout=15)
+    resp.raise_for_status()
+    return decode(resp)
+
+
+def parse_article_meta(html):
+    """Pull a thumbnail and a lead paragraph from an article page's
+    Open Graph / meta tags. Returns (image_url, lead_text); either
+    may be None."""
+    soup = BeautifulSoup(html, "html.parser")
+
+    def meta(*keys):
+        for key in keys:
+            tag = soup.find("meta", attrs={"property": key})
+            if tag is None:
+                tag = soup.find("meta", attrs={"name": key})
+            if tag is not None and tag.get("content"):
+                return tag["content"].strip()
+        return None
+
+    img = meta("og:image", "twitter:image")
+    lead = meta("og:description", "description", "twitter:description")
+    if lead:
+        lead = re.sub(r"\s+", " ", lead).strip()
+        if len(lead) > 300:
+            lead = lead[:300].rstrip() + "…"
+    if not lead or looks_boilerplate(lead):
+        # Some sites give every article the same site boilerplate as
+        # its description (or none at all); fall back to the first
+        # real paragraph of the article body.
+        para = first_paragraph(soup)
+        if para:
+            lead = para
+        elif lead and looks_boilerplate(lead):
+            lead = None
+    return img, lead or None
+
+
+BOILERPLATE_MARKERS = ("公式ウェブサイト", "に関する記事一覧ページです")
+
+
+def looks_boilerplate(text):
+    return any(m in text for m in BOILERPLATE_MARKERS)
+
+
+def first_paragraph(soup):
+    # Scan the whole page in document order: some sites wrap the
+    # article in <article> tags that are really list cards, so a
+    # container-first search can land in the wrong block. Paragraphs
+    # inside header / footer / nav / aside are chrome, not body.
+    for p in soup.find_all("p"):
+        if p.find_parent(["header", "footer", "nav", "aside"]):
+            continue
+        text = re.sub(r"\s+", " ", p.get_text(" ", strip=True)).strip()
+        if len(text) >= 40 and not looks_boilerplate(text):
+            if len(text) > 300:
+                text = text[:300].rstrip() + "…"
+            return text
+    return None
+
+
+def escape_attr(text):
+    return escape(text, {'"': "&quot;"})
+
+
+def enrich_items(items, cache):
+    """Attach a thumbnail (img) and lead text (lead) to items, taken
+    from each article page's meta tags, so feed readers show more
+    than a bare title. Results are cached in the state file keyed by
+    article URL, so each article page is fetched only until its meta
+    is captured (at most 3 attempts). Best-effort: any failure just
+    leaves the item plain, never fails the feed."""
+    changed = False
+    for it in items:
+        url = it["url"]
+        entry = cache.get(url)
+        if entry and (entry.get("img") or entry.get("desc")):
+            it["img"] = entry.get("img")
+            it["lead"] = entry.get("desc")
+            continue
+        if entry and entry.get("tries", 0) >= 3:
+            continue
+        try:
+            img, lead = parse_article_meta(fetch_once(url))
+        except Exception:
+            img, lead = None, None
+        tries = (entry.get("tries", 0) if entry else 0)
+        if not (img or lead):
+            tries += 1
+        cache[url] = {"img": img, "desc": lead, "tries": tries}
+        changed = True
+        it["img"] = img
+        it["lead"] = lead
+        time.sleep(0.3)
+    return changed
 
 
 def parse_uomo_whatsnew(html, base_url):
@@ -441,7 +552,7 @@ def build_rss(site, items):
     now = datetime.now(JST)
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
-        '<rss version="2.0">',
+        '<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">',
         "<channel>",
         f"<title>{escape(site['name'])}</title>",
         f"<link>{escape(site['site_url'])}</link>",
@@ -469,10 +580,26 @@ def build_rss(site, items):
         lines.append(f"<pubDate>{format_datetime(pub)}</pubDate>")
         if it.get("category"):
             lines.append(f"<category>{escape(it['category'])}</category>")
-        if desc_parts:
-            lines.append(
-                f"<description>{escape(' / '.join(desc_parts))}</description>"
+        # The description carries the thumbnail and lead text as
+        # escaped HTML so readers render them in the article view;
+        # the category line stays as a trailing paragraph.
+        html_parts = []
+        if it.get("img"):
+            html_parts.append(
+                f'<img src="{escape_attr(it["img"])}" alt="">'
             )
+        if it.get("lead"):
+            html_parts.append(f"<p>{escape(it['lead'])}</p>")
+        if desc_parts:
+            html_parts.append(f"<p>{escape(' / '.join(desc_parts))}</p>")
+        if html_parts:
+            lines.append(
+                f"<description>{escape(''.join(html_parts))}</description>"
+            )
+        if it.get("img"):
+            img = escape_attr(it["img"])
+            lines.append(f'<media:content url="{img}" medium="image"/>')
+            lines.append(f'<media:thumbnail url="{img}"/>')
         lines.append("</item>")
     lines.append("</channel>")
     lines.append("</rss>")
@@ -506,6 +633,8 @@ def main():
     with open("sites.json", encoding="utf-8") as f:
         config = json.load(f)
     state = load_state()
+    enrich_cache = state.setdefault("__enrich__", {})
+    all_urls = set()
     failures = 0
     for site in config["sites"]:
         try:
@@ -550,6 +679,10 @@ def main():
             if not items:
                 dump_diagnostics(site)
                 raise RuntimeError("no items extracted; keeping previous feed")
+            all_urls.update(it["url"] for it in items)
+            if enrich_items(items[: site.get("max_items", 30)],
+                            enrich_cache):
+                used_state = True
             xml = build_rss(site, items)
             out_dir = os.path.dirname(site["output"])
             if out_dir:
@@ -566,6 +699,14 @@ def main():
         except Exception as exc:  # keep the previous feed file untouched
             failures += 1
             print(f"[{site['id']}] FAILED: {exc}", file=sys.stderr)
+    if failures == 0:
+        # Drop enrichment entries for articles that have rotated out
+        # of every feed, so the state file stays small.
+        stale = [u for u in enrich_cache if u not in all_urls]
+        if stale:
+            for u in stale:
+                del enrich_cache[u]
+            save_state(state)
     return 1 if failures else 0
 
 

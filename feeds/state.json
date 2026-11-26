@@ -75,6 +75,11 @@
    "img": "https://bt.imgix.net/magazine/33380/main/1795589080433_5c2cbb85712f9b03ad5d861e0e0ff5c5.jpg?v=8&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
    "tries": 0
   },
+  "https://bijutsutecho.com/magazine/news/headline/33384": {
+   "desc": "第61回ヴェネチア・ビエンナーレ国際美術展の観客投票による「ヴィジターズ・ライオン賞」が発表され、ニック・ケイヴとインド館が受賞した。国際審査員団の辞任を受けて設けられた同賞をめぐ…",
+   "img": "https://bt.imgix.net/magazine/33384/main/1795655735628_e44de3cb2ee5b26ced6bbea0ea22df64.jpg?v=6&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
+   "tries": 0
+  },
   "https://bijutsutecho.com/magazine/news/market/33360": {
    "desc": "ニューヨークのサザビーズで開催された現代美術のイブニングセールで、草間彌生の《No. 3P.B.》が1510万ドル（約24億円）で落札され、草間のオークション最高落札記録を更新した…",
    "img": "https://bt.imgix.net/magazine/33360/main/1794963415469_69f74a8cf6372771e7c0a9bb3bc501d9.jpg?v=8&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
@@ -118,6 +123,11 @@
   "https://bijutsutecho.com/magazine/news/report/33200": {
    "desc": "千葉県佐倉市にある国立歴史民俗博物館で、企画展示「アイヌ民族と博覧会 ―150年の経験―」が11月29日まで開催されている。会場の様子をレポートする。",
    "img": "https://bt.imgix.net/magazine/33200/main/1792626497063_817f5bc4c6b9dc0ca257d21bbbe5a453.jpg?v=65&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
+   "tries": 0
+  },
+  "https://bijutsutecho.com/magazine/news/report/33302": {
+   "desc": "台湾を代表する国際アートフェアの第33回「ART TAIPEI 2026」が、台北世界貿易センターで開催された。会期は10月30日〜11月2日。国内外から127のギャラリーが集結し…",
+   "img": "https://bt.imgix.net/magazine/33302/main/1793953042910_e8cb295c53feb0c0b614754ac9744a4f.jpg?v=12&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
    "tries": 0
   },
   "https://bijutsutecho.com/magazine/news/report/33332": {
@@ -605,6 +615,41 @@
    "img": "https://images.newswitch.jp/images/0176c8f0-6b18-4c50-8fb0-e9b87f45fec1.png",
    "tries": 0
   },
+  "https://newswitch.jp/p/50921": {
+   "desc": "トヨタ自動車は２５日、米国で生産した中型セダン「カムリ＝写真」を日本市場で１２月２３日に発売すると発表した。米国生産車だが右ハンドルを採用し、ナビゲーションシステムも日本語に対応する。消費税込みの価格...",
+   "img": "https://images.newswitch.jp/images/b2d5f6dc-9535-4ffc-81fb-45599cf65450.jpg",
+   "tries": 0
+  },
+  "https://newswitch.jp/p/50922": {
+   "desc": "さりげないおそろいが人気―。タイタン・アート（大阪市西区、米原太一社長）は、２０２５年１１月―２６年１０月のペア腕時計の販売数が前年同期比約１・２倍（２本セット換算）となった。ファッションブランド「ＫＬ...",
+   "img": "https://images.newswitch.jp/images/9ecee495-e31b-4ef4-97f9-eb0f89c34173.png",
+   "tries": 0
+  },
+  "https://newswitch.jp/p/50923": {
+   "desc": "モトローラ・モビリティ・ジャパン（東京都千代田区、北原秀文社長）は２５日、旗艦スマートフォン「シグネチャー」を１２月４日に発売し、コンシェルジュサービス「シグネチャー・クラブ」を同日以降提供すると発表...",
+   "img": "https://images.newswitch.jp/images/0b77d236-8da3-4ff7-a631-859c23e6aef5.png",
+   "tries": 0
+  },
+  "https://newswitch.jp/p/50924": {
+   "desc": "キヤノンはフッ化アルゴン（ＡｒＦ）ドライ半導体露光装置の新製品「ＦＰＡ―６３００ＡＳ６」の受注を１２月上旬に始める。同社はかつてＡｒＦドライ装置を手がけていたが、２００７年に販売を終了しており、今回の...",
+   "img": "https://images.newswitch.jp/images/9132734e-f33c-4e36-b07b-03c98e3b4442.jpg",
+   "tries": 0
+  },
+  "https://newswitch.jp/p/50934": {
+   "desc": "新規取引に真価発揮 三菱ブランドは、各社の事業活動で実際にどのような力を発揮しているのか。三菱広報委員会と日刊工業新聞社が会員会社３５社の広報担当部長や担当役員らに聞いたところ、最も多かったのは「...",
+   "img": "https://images.newswitch.jp/images/55cf8d9a-9c8e-46a9-bfcf-f1ff05764aaa.jpg",
+   "tries": 0
+  },
+  "https://newswitch.jp/p/50935": {
+   "desc": "成果文書の採択断念 トルコで開かれた国連気候変動枠組み条約第３１回締約国会議（ＣＯＰ３１）は２２日、成果文書の採択を断念して閉幕した。会期を２日延長したが、化石燃料や資金をめぐる対立が先鋭化し、意見の...",
+   "img": "https://images.newswitch.jp/images/fd7e6224-aca9-4141-a5d1-c7d9d640ad0a.jpg",
+   "tries": 0
+  },
+  "https://newswitch.jp/p/50936": {
+   "desc": "保険を提供するだけでなく、健康や医療、介護、子育てまで、人々の暮らしを幅広く支える－。日本生命保険が掲げる「安心の多面体」は、社会課題の解決と事業基盤の強化を両立させる成長戦略だ。これまで個別に展開し...",
+   "img": "https://images.newswitch.jp/images/925b5373-cb7c-46a0-a9f3-62f7dc44d6d6.jpg",
+   "tries": 0
+  },
   "https://www.webuomo.jp/beauty/topic/11-13_lelabo/": {
    "desc": null,
    "img": null,
@@ -695,18 +740,11 @@
  "fashionpost": {},
  "monoque": {},
  "newswitch": {
-  "https://newswitch.jp/p/50844": "2026-11-26T08:53:48.706201+09:00",
-  "https://newswitch.jp/p/50845": "2026-11-26T08:53:48.706201+09:00",
-  "https://newswitch.jp/p/50846": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50847": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50848": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50853": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50861": "2026-11-26T08:53:48.706201+09:00",
-  "https://newswitch.jp/p/50863": "2026-11-26T08:53:48.706201+09:00",
-  "https://newswitch.jp/p/50874": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50875": "2026-11-26T08:53:48.706201+09:00",
-  "https://newswitch.jp/p/50876": "2026-11-26T08:53:48.706201+09:00",
-  "https://newswitch.jp/p/50877": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50878": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50879": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50880": "2026-11-26T08:53:48.706201+09:00",
@@ -744,7 +782,14 @@
   "https://newswitch.jp/p/50914": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50915": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50916": "2026-11-26T16:35:58.559665+09:00",
-  "https://newswitch.jp/p/50920": "2026-11-26T08:53:48.706201+09:00"
+  "https://newswitch.jp/p/50920": "2026-11-26T08:53:48.706201+09:00",
+  "https://newswitch.jp/p/50921": "2026-11-27T07:06:50.999277+09:00",
+  "https://newswitch.jp/p/50922": "2026-11-27T07:06:50.999277+09:00",
+  "https://newswitch.jp/p/50923": "2026-11-27T07:06:50.999277+09:00",
+  "https://newswitch.jp/p/50924": "2026-11-27T07:06:50.999277+09:00",
+  "https://newswitch.jp/p/50934": "2026-11-27T07:06:50.999277+09:00",
+  "https://newswitch.jp/p/50935": "2026-11-27T07:06:50.999277+09:00",
+  "https://newswitch.jp/p/50936": "2026-11-27T07:06:50.999277+09:00"
  },
  "uomo": {}
 }

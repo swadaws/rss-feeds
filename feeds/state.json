@@ -85,11 +85,6 @@
    "img": "https://bt.imgix.net/magazine/33360/main/1794963415469_69f74a8cf6372771e7c0a9bb3bc501d9.jpg?v=8&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
    "tries": 0
   },
-  "https://bijutsutecho.com/magazine/news/market/33361": {
-   "desc": "かつて世界のアート関係者が集まり、中国のアート市場の急成長を象徴する都市だった上海。しかし、中国経済の減速や国際的なアートイベントの増加を背景に、その存在感は変わりつつある。上海の…",
-   "img": "https://bt.imgix.net/magazine/33361/main/1794978019319_a42963a08ef74cff2bcdf772ace9132e.jpg?v=30&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
-   "tries": 0
-  },
   "https://bijutsutecho.com/magazine/news/market/33367": {
    "desc": "ニューヨークのサザビーズで11月18日、フィンセント・ファン・ゴッホの最晩年の風景画《Châtaigniers en fleurs》（1890）が1億9040万ドル（約303億75…",
    "img": "https://bt.imgix.net/magazine/33367/main/1795136597483_9391a27670b7519d17fd8aeb75149251.jpg?v=9&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
@@ -335,11 +330,6 @@
    "img": "https://monoque.jp/assets/images/favicon.png",
    "tries": 0
   },
-  "https://monoque.jp/news/06ffca777cab9df08d90e6aa7fc7f3bd7c8260f6/": {
-   "desc": "台湾貿易センター（TAITRA）と経済部貿易署は日本企業向けビジネス商談会「台湾精密加工部品調達商談会 台湾ハイエンド金属製品・ハンドツール調達商談会」を11月に大阪、東京で開催する。多くの台湾のサプライヤー企業と自由に商談できる機会になる。会場には通訳を常に配備しているため日本語で安心して商談を円滑に進められ、日本のバイヤーから好評という。",
-   "img": "https://monoque.jp/assets/images/favicon.png",
-   "tries": 0
-  },
   "https://monoque.jp/news/0dfaca510ac92daf08086fa704421a4ab5ce11e8/": {
    "desc": "プレスはじめ各種鍛造機械の共通点はおよそ「丈夫で長持ち」だが、ゆえに消耗部品の生産終了や、メーカー廃業などで「使えるけど十分なメンテができない」という声が聞かれる。",
    "img": "https://monoque.jp/assets/images/favicon.png",
@@ -370,8 +360,8 @@
    "img": "https://monoque.jp/assets/images/favicon.png",
    "tries": 0
   },
-  "https://monoque.jp/news/4790c6699360b9bf5b125b47048785c8f1aff623/": {
-   "desc": "今治造船、川崎汽船、旭洋造船、 JERA 、新来島どっく、日本郵船、日本シップヤードの 7 社は 10 月 27 日、東京・港区で共同会見を開き、中部地区におけるアンモニア燃料サプライチェーンの構築と、同供給網を活用するアンモニア燃料自動車専用船 4 隻の建造・運航に共同で取り組むと発表した。アンモニア燃料を使う大型船が建造されるのは国内初。背景には日本が 2035 年に建造量を 24 年比で倍増させる目標を掲げていることと、中韓が存在感を高める造船市場で世界シェアを奪還したい思いがある。",
+  "https://monoque.jp/news/5de33210dc8d24ecc2cfe8fc73cbf526804e0ddf/": {
+   "desc": "京都府京田辺市の「南田辺西地区」において、フードテック関連の先端企業や研究機関を集積する約 43 ・ 7 ヘクタールの大規模開発が進んでいる。事業主体及び造成工事を担う準大手ゼネコンのフジタは、すでに現場実装している遠隔操作式バックホーの技術を基盤に、バックホーとダンプトラックを自動連動させる「群管理システム」を導入し、建機自動化による無人化施工による造成に挑む。同社はその先進的な取り組みをアピールするため、従来は手作業で製作していた完成予想模型をフルカラー AM （積層造形・ Additive Manufacturing ）技術によって造形。 10 月 27 ・ 28 日の「京都フードテック…",
    "img": "https://monoque.jp/assets/images/favicon.png",
    "tries": 0
   },
@@ -417,6 +407,11 @@
   },
   "https://monoque.jp/news/a548c9b27c090e30e1c3494418f0f3e78e5e17dd/": {
    "desc": "コロナのアウトドアブランド「 OUTFIELD （アウトフィールド）」のポータブルエアコン「 BREEZE BOX 」が 2026 年度グッドデザイン賞（日本デザイン振興会主催）を受賞した。「ほどよい堅牢さと軽快さがあり、設置や移動時の姿にも説得力がある」（審査委員）と評価された。",
+   "img": "https://monoque.jp/assets/images/favicon.png",
+   "tries": 0
+  },
+  "https://monoque.jp/news/b8050dfe03e89bc22c119aa94da25fb1ffda100a/": {
+   "desc": "新富士バーナーは 11 月 14 日、アウトドアブランド SOTO の体験型イベント「炙りびより」を都内で開いた。公式インスタグラムの人気連載「炙り紀行」をリアルに持ち込んだ初のイベントで、料理体験教室、製品の展示即売、ファン交流を通じて「つくる、食べる、触れる、買う」を一日で味わえる内容とした。",
    "img": "https://monoque.jp/assets/images/favicon.png",
    "tries": 0
   },
@@ -706,11 +701,6 @@
    "tries": 3
   },
   "https://www.webuomo.jp/uomolist/down200-2026aw/": {
-   "desc": null,
-   "img": null,
-   "tries": 3
-  },
-  "https://www.webuomo.jp/uomolist/lightouter30-2026aw/": {
    "desc": null,
    "img": null,
    "tries": 3

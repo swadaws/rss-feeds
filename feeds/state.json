@@ -40,6 +40,11 @@
    "img": "https://bt.imgix.net/magazine/33362/main/1794980293959_058bc06773a8d38f593a77185394a25c.jpg?v=4&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
    "tries": 0
   },
+  "https://bijutsutecho.com/magazine/news/exhibition/33363": {
+   "desc": "東京・南青山の根津美術館で、漆工技法のなかでも「彫る」表現に焦点を当てた企画展「彫る漆」が開催される。会期は12月5日〜2027年1月17日。",
+   "img": "https://bt.imgix.net/magazine/33363/main/1795580452632_9b882203644d06a98ac66c4218465135.jpg?v=9&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
+   "tries": 0
+  },
   "https://bijutsutecho.com/magazine/news/exhibition/33364": {
    "desc": "今週閉幕する／開幕した展覧会のなかから、とくに注目したいものをピックアップしてお届け。なお、最新情報は各館公式サイトを参照してほしい。",
    "img": "https://bt.imgix.net/magazine/33364/main/1795074195108_4f333e0b01da55b0a80184954b99674c.jpg?v=25&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
@@ -58,6 +63,16 @@
   "https://bijutsutecho.com/magazine/news/headline/33345": {
    "desc": "CHANEL Culture Fund（シャネル文化基金）が発行する年刊誌『ARTS & CULTURE』の第2号が刊行された。シンディ・シャーマンによる新作が表紙と誌面を飾り、パ…",
    "img": "https://bt.imgix.net/magazine/33345/main/1794794008926_496ff10fa1309254ff424ced879d0327.jpg?v=8&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
+   "tries": 0
+  },
+  "https://bijutsutecho.com/magazine/news/headline/33354": {
+   "desc": "神奈川県・箱根町のポーラ美術館が、フェリックス・ゴンザレス＝トレスの代表作《「無題」（パーフェクト・ラヴァーズ）》（1987〜90）を新たに収蔵したことを発表した。同作は、現在開催…",
+   "img": "https://bt.imgix.net/magazine/33354/main/1794892013322_014f7a0781775424eaf91c25ed63b225.jpg?v=3&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
+   "tries": 0
+  },
+  "https://bijutsutecho.com/magazine/news/headline/33380": {
+   "desc": "2027年9月3日〜11月21日に開催される第2回ブハラ・ビエンナーレのテーマと第1弾参加アーティストが発表された。「The Long Welcome」をテーマに、アニッシュ・カプ…",
+   "img": "https://bt.imgix.net/magazine/33380/main/1795589080433_5c2cbb85712f9b03ad5d861e0e0ff5c5.jpg?v=8&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
    "tries": 0
   },
   "https://bijutsutecho.com/magazine/news/market/33360": {
@@ -290,6 +305,11 @@
    "img": "https://static.fashionpost.jp/article/wp-content/uploads/2026/11/24150112/chanel_0w4a4630_furtherretouched-HD-1920x1232.jpg",
    "tries": 0
   },
+  "https://fashionpost.jp/news/408551": {
+   "desc": "スペインの名門クラブ レアル･マドリードのオフィシャル･パートナーである Louis Vuitton (ルイ ･ヴィトン) が、男女サッカーチームおよび男子バスケットボールチーム向けの新たなフォーマルウェア・遠征用の公式ウェアを発表。世界中に影響を与えるアスリートたちを、メゾンの伝統と技術で支えていく。",
+   "img": "https://static.fashionpost.jp/article/wp-content/uploads/2026/11/24160744/Key-visual-Carlos-Espi-Aurelien-Tchouameni-Jude-Bellingham-Yan-Diomande-Arda-Guler-Eduardo-Camavingha-Louis-Vuitton.jpg",
+   "tries": 0
+  },
   "https://fashionpost.jp/news/408605": {
    "desc": "Miu Miu Beauty (ミュウミュウ ビューティー) から、型にはまらない精神と女性らしさをブラックベリーで表現した新たなウィメンズフレグランス「Miutine Intense (ミューティン インテンス) 」が登場。発売を記念し、東京と大阪でポップアップストアを開催する。",
    "img": "https://static.fashionpost.jp/article/wp-content/uploads/2026/11/24185512/miumiu_fraw_miutine_INTENSE_in-hand_1080x1350px_rgb-1-e1795514127975.jpg",
@@ -307,6 +327,11 @@
   },
   "https://monoque.jp/news/06ffca777cab9df08d90e6aa7fc7f3bd7c8260f6/": {
    "desc": "台湾貿易センター（TAITRA）と経済部貿易署は日本企業向けビジネス商談会「台湾精密加工部品調達商談会 台湾ハイエンド金属製品・ハンドツール調達商談会」を11月に大阪、東京で開催する。多くの台湾のサプライヤー企業と自由に商談できる機会になる。会場には通訳を常に配備しているため日本語で安心して商談を円滑に進められ、日本のバイヤーから好評という。",
+   "img": "https://monoque.jp/assets/images/favicon.png",
+   "tries": 0
+  },
+  "https://monoque.jp/news/0dfaca510ac92daf08086fa704421a4ab5ce11e8/": {
+   "desc": "プレスはじめ各種鍛造機械の共通点はおよそ「丈夫で長持ち」だが、ゆえに消耗部品の生産終了や、メーカー廃業などで「使えるけど十分なメンテができない」という声が聞かれる。",
    "img": "https://monoque.jp/assets/images/favicon.png",
    "tries": 0
   },
@@ -525,6 +550,11 @@
    "img": "https://images.newswitch.jp/images/2ee235f0-510a-442c-b292-3ac82d37d1ea.jpg",
    "tries": 0
   },
+  "https://newswitch.jp/p/50906": {
+   "desc": "西松建設はクボタ、極東興和（広島市東区）と共同で、道路橋の床版取替工事におけるプレキャスト・プレストレストコンクリート（ＰＣ）床版の新接合技術「ボルト接合式継手（ボルトグリップジョイント）」を開発した...",
+   "img": "https://images.newswitch.jp/images/4292024d-a3cb-47d8-8f27-8507f2b74514.jpg",
+   "tries": 0
+  },
   "https://newswitch.jp/p/50907": {
    "desc": "新年会・忘年会を実施する企業の割合はコロナ禍前に比べて１０ポイント以上低下―。帝国データバンクがまとめた「社内イベントに関する企業の動向アンケート」で、こうした状況が浮き彫りとなった。新年会・忘年会を...",
    "img": "https://images.newswitch.jp/images/3e178108-a037-4138-9776-7d79a4b251cd.jpg",
@@ -548,6 +578,11 @@
   "https://newswitch.jp/p/50911": {
    "desc": "東海理化、アルプスアルパイン、日本精機の３社は２４日、サプライチェーン（供給網）の強靱（きょうじん）化に向け、共同購買に関する基本合意書を締結したと発表した。早ければ２０２７年春以降に半導体や基板材、...",
    "img": "https://images.newswitch.jp/images/c16bb7e7-82b5-44b8-96a6-a0e014941f0e.jpg",
+   "tries": 0
+  },
+  "https://newswitch.jp/p/50912": {
+   "desc": "国内主要生命保険各社の２０２７年３月期業績見通しが２４日、出そろった。金利上昇を追い風に貯蓄性商品の販売が好調に推移するほか、高利回りの国内債券への入れ替えなどによる資産運用収益の拡大が利益を押し上げ...",
+   "img": "https://images.newswitch.jp/images/569d35a2-e788-449a-8e62-13ba50b82cf9.jpg",
    "tries": 0
   },
   "https://newswitch.jp/p/50913": {
@@ -583,9 +618,7 @@
   "https://newswitch.jp/p/50853": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50861": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50863": "2026-11-26T08:53:48.706201+09:00",
-  "https://newswitch.jp/p/50869": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50871": "2026-11-26T08:53:48.706201+09:00",
-  "https://newswitch.jp/p/50873": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50874": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50875": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50876": "2026-11-26T08:53:48.706201+09:00",
@@ -616,11 +649,13 @@
   "https://newswitch.jp/p/50903": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50904": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50905": "2026-11-26T08:53:48.706201+09:00",
+  "https://newswitch.jp/p/50906": "2026-11-26T12:07:58.935094+09:00",
   "https://newswitch.jp/p/50907": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50908": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50909": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50910": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50911": "2026-11-26T08:53:48.706201+09:00",
+  "https://newswitch.jp/p/50912": "2026-11-26T12:07:58.935094+09:00",
   "https://newswitch.jp/p/50913": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50914": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50915": "2026-11-26T08:53:48.706201+09:00",

@@ -55,6 +55,11 @@
    "img": "https://bt.imgix.net/magazine/33376/main/1795503110409_e317d8c2b21e4110c3675c274b905b58.jpg?v=11&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
    "tries": 0
   },
+  "https://bijutsutecho.com/magazine/news/exhibition/33385": {
+   "desc": "今週閉幕する／開幕した展覧会のなかから、とくに注目したいものをピックアップしてお届け。なお、最新情報は各館公式サイトを参照してほしい。",
+   "img": "https://bt.imgix.net/magazine/33385/main/1795670995599_104236116e4af34d224d709c8a9324e1.jpg?v=13&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
+   "tries": 0
+  },
   "https://bijutsutecho.com/magazine/news/headline/33320": {
    "desc": "ナショナル・ポートレート・ギャラリーとCHANEL Culture Fund（シャネル文化基金）が、写真専門のキュレーター職を新設する。2021年から続く両者の協働の新たな取り組み…",
    "img": "https://bt.imgix.net/magazine/33320/main/1794546077200_53e514764fd69db26f90b673e1051d50.jpg?v=10&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
@@ -83,6 +88,11 @@
   "https://bijutsutecho.com/magazine/news/market/33360": {
    "desc": "ニューヨークのサザビーズで開催された現代美術のイブニングセールで、草間彌生の《No. 3P.B.》が1510万ドル（約24億円）で落札され、草間のオークション最高落札記録を更新した…",
    "img": "https://bt.imgix.net/magazine/33360/main/1794963415469_69f74a8cf6372771e7c0a9bb3bc501d9.jpg?v=8&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
+   "tries": 0
+  },
+  "https://bijutsutecho.com/magazine/news/market/33361": {
+   "desc": "かつて世界のアート関係者が集まり、中国のアート市場の急成長を象徴する都市だった上海。しかし、中国経済の減速や国際的なアートイベントの増加を背景に、その存在感は変わりつつある。上海の…",
+   "img": "https://bt.imgix.net/magazine/33361/main/1794978019319_a42963a08ef74cff2bcdf772ace9132e.jpg?v=30&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
    "tries": 0
   },
   "https://bijutsutecho.com/magazine/news/market/33367": {
@@ -143,6 +153,11 @@
   "https://bijutsutecho.com/magazine/news/report/33366": {
    "desc": "広島・宮島の大聖院を舞台とするアートプロジェクト「MAFIN 2026（Miyajima Art Festival in the Narrative 2026）」が11月20日に開…",
    "img": "https://bt.imgix.net/magazine/33366/main/1795078546526_c29693781c2324035ec15b139d9b5035.jpg?v=2&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
+   "tries": 0
+  },
+  "https://bijutsutecho.com/magazine/news/report/33368": {
+   "desc": "東京・恵比寿の東京都写真美術館で、「ふたたびくみたてる 日本の新進作家 vol. 23」展が2027年1月17日まで開催されている。会場の様子をレポートする。",
+   "img": "https://bt.imgix.net/magazine/33368/main/1795140552703_2e2eaca20ef99956d537d1926922881a.jpg?v=31&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
    "tries": 0
   },
   "https://bijutsutecho.com/magazine/news/report/33370": {

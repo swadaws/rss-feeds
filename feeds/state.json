@@ -360,6 +360,11 @@
    "img": "https://static.fashionpost.jp/article/wp-content/uploads/2026/11/26171100/29d3bc99193cb0b837fb8cc53f050ae5.jpg",
    "tries": 0
   },
+  "https://fashionpost.jp/news/408951": {
+   "desc": "Swarovski (スワロフスキー) が、ミュージカルの世界に着想を得たホリデーキャンペーン「JOY: The Swarovski Musical」を発表。グローバル ブランドアンバサダーを務める Ariana Grande (アリアナ・グランデ) を主演に迎え、歌やダンス、煌びやかなジュエリーが織りなす祝祭の舞台へと誘う。",
+   "img": "https://static.fashionpost.jp/article/wp-content/uploads/2026/11/27134119/1_SW26_HOLIDAY_KV-OM-2-ME_CENTRAL_PRCROPS_A3_420X297_72DPI_RGB.jpg",
+   "tries": 0
+  },
   "https://monoque.jp/news/00d2d3d4985678e03b7ba4cb92a24a8dea5041b6/": {
    "desc": "THK （東京都港区芝浦 2-12-10 、応用技術統括部 AE 部 =TEL.03-5730-3865 ）は 10 月 21 日、低発熱のボールねじ「 BPFP 」の受注を始めると発表し、 10 月 31 日まで東京で開かれた JIMTOF に出品した。",
    "img": "https://monoque.jp/assets/images/favicon.png",
@@ -372,6 +377,11 @@
   },
   "https://monoque.jp/news/1c3f57cb44a289f1624826e14d58dd5f52e0a204/": {
    "desc": "ロボット SIer のティーエス（静岡県浜松市）は 3D と 2D カメラを組み合わせたロボットピッキングシステムの提案を強化している。 10 月 16 日までの 2 日間、浜松市で開かれた「ハマロボ展」で、 3D ビジョンによるワークの位置・姿勢認識と 2D カメラによる刻印の読取りを組み合わせ、ピッキングから表裏判別、組付けまでの自動化を主に中小企業などに向けて実演した。",
+   "img": "https://monoque.jp/assets/images/favicon.png",
+   "tries": 0
+  },
+  "https://monoque.jp/news/23687f01ae210d3dfc3f98d691496f1de596563c/": {
+   "desc": "マックスはこのほど、群馬県玉村町の玉村工場敷地内に、独自技術の研究とオープンイノベーションの中核拠点となる「技術研究センター（仮称）」（＝写真）を新設すると発表した。投資額は 70 億円。鉄骨造の地上 2 階建てで、延べ床面積は 5312.51 ㎡。竣工は 2028 年度の予定で、名称や稼働時期は今後改めて公表する。",
    "img": "https://monoque.jp/assets/images/favicon.png",
    "tries": 0
   },

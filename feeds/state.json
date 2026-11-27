@@ -140,11 +140,6 @@
    "img": "https://bt.imgix.net/magazine/33357/main/1794901322596_fc862829c134e59a7648fcc2fb235b0e.jpg?v=14&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
    "tries": 0
   },
-  "https://bijutsutecho.com/magazine/news/report/33200": {
-   "desc": "千葉県佐倉市にある国立歴史民俗博物館で、企画展示「アイヌ民族と博覧会 ―150年の経験―」が11月29日まで開催されている。会場の様子をレポートする。",
-   "img": "https://bt.imgix.net/magazine/33200/main/1792626497063_817f5bc4c6b9dc0ca257d21bbbe5a453.jpg?v=65&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
-   "tries": 0
-  },
   "https://bijutsutecho.com/magazine/news/report/33302": {
    "desc": "台湾を代表する国際アートフェアの第33回「ART TAIPEI 2026」が、台北世界貿易センターで開催された。会期は10月30日〜11月2日。国内外から127のギャラリーが集結し…",
    "img": "https://bt.imgix.net/magazine/33302/main/1793953042910_e8cb295c53feb0c0b614754ac9744a4f.jpg?v=12&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
@@ -470,11 +465,6 @@
    "img": "https://monoque.jp/assets/images/favicon.png",
    "tries": 0
   },
-  "https://monoque.jp/news/a548c9b27c090e30e1c3494418f0f3e78e5e17dd/": {
-   "desc": "コロナのアウトドアブランド「 OUTFIELD （アウトフィールド）」のポータブルエアコン「 BREEZE BOX 」が 2026 年度グッドデザイン賞（日本デザイン振興会主催）を受賞した。「ほどよい堅牢さと軽快さがあり、設置や移動時の姿にも説得力がある」（審査委員）と評価された。",
-   "img": "https://monoque.jp/assets/images/favicon.png",
-   "tries": 0
-  },
   "https://monoque.jp/news/b8050dfe03e89bc22c119aa94da25fb1ffda100a/": {
    "desc": "新富士バーナーは 11 月 14 日、アウトドアブランド SOTO の体験型イベント「炙りびより」を都内で開いた。公式インスタグラムの人気連載「炙り紀行」をリアルに持ち込んだ初のイベントで、料理体験教室、製品の展示即売、ファン交流を通じて「つくる、食べる、触れる、買う」を一日で味わえる内容とした。",
    "img": "https://monoque.jp/assets/images/favicon.png",
@@ -730,14 +720,14 @@
    "img": null,
    "tries": 3
   },
-  "https://www.webuomo.jp/fashion/matome/SZvFbA/": {
+  "https://www.webuomo.jp/fashion/matome/v6R__A/": {
    "desc": null,
    "img": null,
-   "tries": 3
+   "tries": 1
   },
-  "https://www.webuomo.jp/fashion/news/2026-11-24-BefjQQ/": {
-   "desc": "ミニマルなデザインを軸に、都市生活者のための快適なリアルクローズを提案する「SOPHNET.（ソフネット）」と、英国のキルティングアウターウェアブランド「LAVENHAM（ラベンハム）」によるコラボレーション第3弾が登場。",
-   "img": "https://img.webuomo.jp/article/sns/image/36/36665d46-1850-4c5e-8418-b2313089b48c-1200x630.jpg",
+  "https://www.webuomo.jp/fashion/news/2026-11-20-7XPwuA/": {
+   "desc": null,
+   "img": null,
    "tries": 1
   },
   "https://www.webuomo.jp/fashion/special/a01_arknets2611/": {
@@ -754,6 +744,11 @@
    "desc": null,
    "img": null,
    "tries": 3
+  },
+  "https://www.webuomo.jp/life/news/2026-11-27-iTN97A/": {
+   "desc": "12月11日(金)より、渋谷ヒカリエ ヒカリエホールにて、『おしゃれするのは誰のため？展 ファッション雑誌が映し出す時代とジェンダー』が開幕。",
+   "img": "https://img.webuomo.jp/article/sns/image/96/9617dd35-ab91-4764-9df7-7d9383514d44-1200x630.jpg",
+   "tries": 0
   },
   "https://www.webuomo.jp/life/topic/2026-11-25-briefing/": {
    "desc": "日頃からキャリーケースを高頻度で使う二人が、高い堅牢性を誇るブリーフィングの「HD」と、軽快な操作性が魅力の「SD」を試した。",
@@ -778,12 +773,7 @@
   "https://www.webuomo.jp/uomolist/lightouter30-2026aw/": {
    "desc": null,
    "img": null,
-   "tries": 1
-  },
-  "https://www.webuomo.jp/uomolist/shibutsu/": {
-   "desc": null,
-   "img": null,
-   "tries": 3
+   "tries": 2
   },
   "https://www.webuomo.jp/uomolist/wallet30-202627winter/": {
    "desc": null,

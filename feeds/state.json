@@ -35,11 +35,6 @@
    "img": "https://bt.imgix.net/magazine/33355/main/1795134791580_1aefa862e9043b776c894e11b78421ad.jpg?v=10&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
    "tries": 0
   },
-  "https://bijutsutecho.com/magazine/news/exhibition/33362": {
-   "desc": "東京の多様な建築を舞台にした大規模な建築体験イベント「東京建築祭2027」が、2027年5月15日〜23日の9日間にわたり開催される。",
-   "img": "https://bt.imgix.net/magazine/33362/main/1794980293959_058bc06773a8d38f593a77185394a25c.jpg?v=4&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
-   "tries": 0
-  },
   "https://bijutsutecho.com/magazine/news/exhibition/33363": {
    "desc": "東京・南青山の根津美術館で、漆工技法のなかでも「彫る」表現に焦点を当てた企画展「彫る漆」が開催される。会期は12月5日〜2027年1月17日。",
    "img": "https://bt.imgix.net/magazine/33363/main/1795580452632_9b882203644d06a98ac66c4218465135.jpg?v=9&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
@@ -83,6 +78,11 @@
   "https://bijutsutecho.com/magazine/news/headline/33384": {
    "desc": "第61回ヴェネチア・ビエンナーレ国際美術展の観客投票による「ヴィジターズ・ライオン賞」が発表され、ニック・ケイヴとインド館が受賞した。国際審査員団の辞任を受けて設けられた同賞をめぐ…",
    "img": "https://bt.imgix.net/magazine/33384/main/1795655735628_e44de3cb2ee5b26ced6bbea0ea22df64.jpg?v=6&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
+   "tries": 0
+  },
+  "https://bijutsutecho.com/magazine/news/headline/33388": {
+   "desc": "2028年に開催される第62回ヴェネチア・ビエンナーレ国際美術展の芸術監督に、フール・アル・カシミが就任することが発表された。シャルジャ・ビエンナーレを長年牽引し、国際芸術祭「あい…",
+   "img": "https://bt.imgix.net/magazine/33388/main/1795740922697_cd342a7b337987e345b1971888a46623.jpg?v=6&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
    "tries": 0
   },
   "https://bijutsutecho.com/magazine/news/market/33360": {
@@ -340,6 +340,11 @@
    "img": "https://static.fashionpost.jp/article/wp-content/uploads/2026/11/26124152/Poster-BOI-Japan_vertical-3x4-HD.jpg",
    "tries": 0
   },
+  "https://fashionpost.jp/news/408836": {
+   "desc": "PUMA (プーマ) と Jil Sander (ジル サンダー) によるコラボレーション第3弾が展開中。今回は、両ブランドのパートナーシップにおいて初となるアパレルに加え、PUMA を代表するシューズ「SPEEDCAT (スピードキャット)」と「SUEDE (スウェード)」がラインナップ。スポーツウェアの機能性と研ぎ澄まされた美意識が融合したコレクションに注目したい。",
+   "img": "https://static.fashionpost.jp/article/wp-content/uploads/2026/11/26171100/29d3bc99193cb0b837fb8cc53f050ae5.jpg",
+   "tries": 0
+  },
   "https://monoque.jp/news/00d2d3d4985678e03b7ba4cb92a24a8dea5041b6/": {
    "desc": "THK （東京都港区芝浦 2-12-10 、応用技術統括部 AE 部 =TEL.03-5730-3865 ）は 10 月 21 日、低発熱のボールねじ「 BPFP 」の受注を始めると発表し、 10 月 31 日まで東京で開かれた JIMTOF に出品した。",
    "img": "https://monoque.jp/assets/images/favicon.png",
@@ -432,11 +437,6 @@
   },
   "https://monoque.jp/news/bf17f554f74ee9ef493f86740d2f8954af50d753/": {
    "desc": "物流関連サービスを展開する OTW （東京都北区）は 10 月、荷主と運送事業者をつなぐ配車マッチングプラットフォーム「 TORAX 」を開設した。",
-   "img": "https://monoque.jp/assets/images/favicon.png",
-   "tries": 0
-  },
-  "https://monoque.jp/news/ce988bd6eec0a7ad959c979a4606b908ebf28130/": {
-   "desc": "山善は自動化の構想・導入から加工環境改善や現場のデジタル化まで、製造現場の課題解決をワンストップで支援できることをアピールしている。 10 月 31 日まで東京で開かれた JIMTOF では段取り替えがしやすいブラザー工業の小型マシニングセンタ（ MC ）「 S300Xd2 」で加工したワークをファナックの協働ロボット「 CRX-20iA/L 」で脱着・搬送し、東京精密の 3 次元座標測定機「 ZEISS DuraMax 」によるインライン計測で品質保証する様子を見せた。",
    "img": "https://monoque.jp/assets/images/favicon.png",
    "tries": 0
   },
@@ -650,6 +650,16 @@
    "img": "https://images.newswitch.jp/images/9132734e-f33c-4e36-b07b-03c98e3b4442.jpg",
    "tries": 0
   },
+  "https://newswitch.jp/p/50925": {
+   "desc": "新世代ランプ生産 小糸製作所は２０３０年度にハイビーム可変ヘッドランプ（ＡＤＢ）のグローバル受注台数を２５年度比８４％増の２３０万台に伸ばす。通常のランプと同じデザインでＡＤＢを搭...",
+   "img": "https://images.newswitch.jp/images/a455cc41-0d98-4b68-a08c-808cf51d98b9.jpg",
+   "tries": 0
+  },
+  "https://newswitch.jp/p/50927": {
+   "desc": "阪急電鉄は２０４０年までに大阪市街地の梅田地区でオフィスや宿泊・商業施設などで構成するツインタワー型の複合高層ビルを開業する。阪急電鉄のターミナル駅である大阪梅田駅がある同地区の再開発の一環で、交流機...",
+   "img": "https://images.newswitch.jp/images/d43fb046-799f-428e-9cf0-868ae1561de0.jpg",
+   "tries": 0
+  },
   "https://newswitch.jp/p/50934": {
    "desc": "新規取引に真価発揮 三菱ブランドは、各社の事業活動で実際にどのような力を発揮しているのか。三菱広報委員会と日刊工業新聞社が会員会社３５社の広報担当部長や担当役員らに聞いたところ、最も多かったのは「...",
    "img": "https://images.newswitch.jp/images/55cf8d9a-9c8e-46a9-bfcf-f1ff05764aaa.jpg",
@@ -669,11 +679,6 @@
    "desc": null,
    "img": null,
    "tries": 3
-  },
-  "https://www.webuomo.jp/culture/news/2026-11-20-CWAGvQ/": {
-   "desc": "フランスのファッションブランド「LEMAIRE（ルメール）」が、2026年11月26日（木）より、東京・恵比寿の「LEMAIRE EBISU（ルメール 恵比寿）」で写真展「A Box of Impressions, Tokyo」を開催。2026年春にパリで開催された写真展に続く第2弾で、21名の写真家による作品が集結する。",
-   "img": "https://img.webuomo.jp/article/sns/image/e4/e4801585-4e35-4dea-8a5f-6866b7c6f7ae-1200x630.jpg",
-   "tries": 0
   },
   "https://www.webuomo.jp/fashion/matome/SZvFbA/": {
    "desc": null,
@@ -700,16 +705,6 @@
    "img": null,
    "tries": 3
   },
-  "https://www.webuomo.jp/fashion/topic/iAMnlQ/": {
-   "desc": null,
-   "img": null,
-   "tries": 3
-  },
-  "https://www.webuomo.jp/life/topic/2026-10-28-tavo/": {
-   "desc": null,
-   "img": null,
-   "tries": 3
-  },
   "https://www.webuomo.jp/life/topic/2026-11-25-briefing/": {
    "desc": "日頃からキャリーケースを高頻度で使う二人が、高い堅牢性を誇るブリーフィングの「HD」と、軽快な操作性が魅力の「SD」を試した。",
    "img": "https://img.webuomo.jp/article/sns/image/10/1065fdff-2615-4f41-96ce-d8ae796c6037-1280x720.jpg",
@@ -720,10 +715,20 @@
    "img": null,
    "tries": 3
   },
+  "https://www.webuomo.jp/sneaker/topic/9dhScA/": {
+   "desc": "この秋、ビームス初のスポーツコンセプトストア「BEAMS SPORTS」が都立明治公園内にオープンした。訪れるだけで運動したくなる魅力的なお店で見つけたのは日本初上陸となるイギリス発フットランニングウェアブランド「ラッド ランニング」のランニングシューズ。流線形のデザインがクールで、実際履くと未体験の走り心地に驚愕。40歳を過ぎた自分には、カラダにいいギフトを。",
+   "img": "https://img.webuomo.jp/article/sns/image/d7/d7819798-7063-4c81-9fb3-7a8f082f5de1-1200x630.jpg",
+   "tries": 0
+  },
   "https://www.webuomo.jp/uomolist/down200-2026aw/": {
    "desc": null,
    "img": null,
    "tries": 3
+  },
+  "https://www.webuomo.jp/uomolist/lightouter30-2026aw/": {
+   "desc": null,
+   "img": null,
+   "tries": 1
   },
   "https://www.webuomo.jp/uomolist/shibutsu/": {
    "desc": null,
@@ -752,8 +757,6 @@
  "newswitch": {
   "https://newswitch.jp/p/50847": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50848": "2026-11-26T08:53:48.706201+09:00",
-  "https://newswitch.jp/p/50853": "2026-11-26T08:53:48.706201+09:00",
-  "https://newswitch.jp/p/50861": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50875": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50878": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50879": "2026-11-26T08:53:48.706201+09:00",
@@ -797,6 +800,8 @@
   "https://newswitch.jp/p/50922": "2026-11-27T07:06:50.999277+09:00",
   "https://newswitch.jp/p/50923": "2026-11-27T07:06:50.999277+09:00",
   "https://newswitch.jp/p/50924": "2026-11-27T07:06:50.999277+09:00",
+  "https://newswitch.jp/p/50925": "2026-11-27T12:11:25.469973+09:00",
+  "https://newswitch.jp/p/50927": "2026-11-27T12:11:25.469973+09:00",
   "https://newswitch.jp/p/50934": "2026-11-27T07:06:50.999277+09:00",
   "https://newswitch.jp/p/50935": "2026-11-27T07:06:50.999277+09:00",
   "https://newswitch.jp/p/50936": "2026-11-27T07:06:50.999277+09:00"

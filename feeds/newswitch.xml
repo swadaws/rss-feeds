@@ -5,7 +5,17 @@
 <link>https://newswitch.jp/</link>
 <description>ニュースイッチの新着記事一覧（非公式RSS、日付は初回検出時刻で代用）</description>
 <language>ja</language>
-<lastBuildDate>Sat, 28 Nov 2026 13:08:29 +0900</lastBuildDate>
+<lastBuildDate>Sat, 28 Nov 2026 14:13:46 +0900</lastBuildDate>
+<item>
+<title>調達難の「タングステン」、三菱マテリアルが循環促進</title>
+<link>https://newswitch.jp/p/50917</link>
+<guid isPermaLink="true">https://newswitch.jp/p/50917</guid>
+<pubDate>Sat, 28 Nov 2026 14:13:45 +0900</pubDate>
+<category>タングステン</category>
+<description>&lt;img src="https://images.newswitch.jp/images/82c53407-a2a3-4ba3-b4be-63864aa5256e.png" alt=""&gt;&lt;p&gt;三菱マテリアルは超硬原料であるタングステンの調達難に対応し、顧客に超硬工具リサイクルでの適切な分別を呼びかける。インサート（刃先交換式の刃）や軸物系、サーメット・ハイス系と種類ごとに回収箱を用意し、研...&lt;/p&gt;&lt;p&gt;タングステン&lt;/p&gt;</description>
+<media:content url="https://images.newswitch.jp/images/82c53407-a2a3-4ba3-b4be-63864aa5256e.png" medium="image"/>
+<media:thumbnail url="https://images.newswitch.jp/images/82c53407-a2a3-4ba3-b4be-63864aa5256e.png"/>
+</item>
 <item>
 <title>建屋投資額80億円・グローバルのモデルに…豊田鉄工、自動車部品組み立て新工場の全容</title>
 <link>https://newswitch.jp/p/50918</link>
@@ -295,16 +305,6 @@
 <description>&lt;img src="https://images.newswitch.jp/images/ea18eec7-9a51-4c8d-a452-e3d1172d98a0.jpg" alt=""&gt;&lt;p&gt;デル・テクノロジーズ（東京都千代田区、ジョン・ロボトム社長）は、個人向けノートパソコン（ＰＣ）「Ｄｅｌｌ １４Ｓ＝写真」を発売した。６月発売の個人向けハイエンド機種「ＸＰＳ１３」と同様に、軽量・薄型を...&lt;/p&gt;&lt;p&gt;パソコン&lt;/p&gt;</description>
 <media:content url="https://images.newswitch.jp/images/ea18eec7-9a51-4c8d-a452-e3d1172d98a0.jpg" medium="image"/>
 <media:thumbnail url="https://images.newswitch.jp/images/ea18eec7-9a51-4c8d-a452-e3d1172d98a0.jpg"/>
-</item>
-<item>
-<title>AI・DC普及で商機広がる、業績回復続く東芝が問われること</title>
-<link>https://newswitch.jp/p/50901</link>
-<guid isPermaLink="true">https://newswitch.jp/p/50901</guid>
-<pubDate>Thu, 26 Nov 2026 08:53:48 +0900</pubDate>
-<category>東芝</category>
-<description>&lt;img src="https://images.newswitch.jp/images/3236184f-95e2-4b72-9723-2319c9421e54.jpg" alt=""&gt;&lt;p&gt;「再興計画」着々、稼ぐ力強化 東芝の業績回復が続く。ＡＩ（人工知能）・データセンター（ＤＣ）の普及などを背景に主力の電力機器やインフラ関連が伸びる。ＡＩ・ＤＣ市場の拡大傾向は続く見込みで、東芝の商機は...&lt;/p&gt;&lt;p&gt;東芝&lt;/p&gt;</description>
-<media:content url="https://images.newswitch.jp/images/3236184f-95e2-4b72-9723-2319c9421e54.jpg" medium="image"/>
-<media:thumbnail url="https://images.newswitch.jp/images/3236184f-95e2-4b72-9723-2319c9421e54.jpg"/>
 </item>
 </channel>
 </rss>

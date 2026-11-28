@@ -350,6 +350,11 @@
    "img": "https://static.fashionpost.jp/article/wp-content/uploads/2026/11/26124152/Poster-BOI-Japan_vertical-3x4-HD.jpg",
    "tries": 0
   },
+  "https://fashionpost.jp/news/408728": {
+   "desc": "LE LABO (ル ラボ) のクラシックキャンドルコレクションに、新たな香り「PAPYRUS 20 (パピリュス 20)」が仲間入り。記憶を留めるという人類の普遍的な営みから生まれた、温もりと奥行きを感じさせる香り。ホリデーシーズンのギフトとしても注目してほしい逸品だ。",
+   "img": "https://static.fashionpost.jp/article/wp-content/uploads/2026/11/26144940/FY26-Q4_Home_P20_Candle_Lighting_3072x2396.jpg",
+   "tries": 0
+  },
   "https://fashionpost.jp/news/408741": {
    "desc": "SOSHIOTSUKI (ソウシオオツキ) とスペイン発のシャツブランド CAMISAS MANOLO (カミサス マノロ) がタッグを組んだ。伝統的なテーラリングを背景に、独自の美学を追求する両ブランド。今回のコラボレーションでは、クラシックなシャツに遊び心を効かせたアイテムが展開されている。",
    "img": "https://static.fashionpost.jp/article/wp-content/uploads/2026/11/26161613/look0022-e1795677821200.jpg",
@@ -378,6 +383,11 @@
   "https://fashionpost.jp/news/408980": {
    "desc": "sacai (サカイ) が、「All I want for Christmas is sacai」をテーマにホリデーカプセルコレクションを発表。ブランドのシグネチャーであるナイロンツイルブルゾンをはじめ、アーカイブのファブリックを再利用した人気の「Zantan」シリーズなど、ホリデーシーズンのギフトにもぴったりなアイテムが揃う。",
    "img": "https://static.fashionpost.jp/article/wp-content/uploads/2026/11/27160213/261028_sacai1732-1-retouch-e1795773303963.jpg",
+   "tries": 0
+  },
+  "https://fashionpost.jp/news/409048": {
+   "desc": "MIU MIU (ミュウミュウ) が、2026年ホリデーキャンペーンを公開。アンバサダーを務める TWICE (トゥワイス) の MOMO (モモ) をはじめ、モデルの Gigi Hadid (ジジ・ハディッド)、俳優の Louisa Jacobson (ルイーザ・ジェイコブソン) らが登場する。撮影を手がけたのは、家族や親しい人々の日常を独自の視点で捉えてきたアメリカの写真家 Tina Barney (ティナ・バーニー)。古き良き伝統に MIU MIU のさりげないユーモアを添え、まるでおとぎ話の一幕のようなホリデーの情景を描き出した。",
+   "img": "https://static.fashionpost.jp/article/wp-content/uploads/2026/11/27184714/MM26_Campaign_HOLIDAY_Photo_Look_Derived_L05_NoLogo_PR_72dpi-e1795842537640.jpg",
    "tries": 0
   },
   "https://monoque.jp/news/00d2d3d4985678e03b7ba4cb92a24a8dea5041b6/": {
@@ -660,6 +670,11 @@
    "img": "https://images.newswitch.jp/images/eb8122ed-f8b5-4ce6-a15d-bd414e2f4184.jpg",
    "tries": 0
   },
+  "https://newswitch.jp/p/50917": {
+   "desc": "三菱マテリアルは超硬原料であるタングステンの調達難に対応し、顧客に超硬工具リサイクルでの適切な分別を呼びかける。インサート（刃先交換式の刃）や軸物系、サーメット・ハイス系と種類ごとに回収箱を用意し、研...",
+   "img": "https://images.newswitch.jp/images/82c53407-a2a3-4ba3-b4be-63864aa5256e.png",
+   "tries": 0
+  },
   "https://newswitch.jp/p/50918": {
    "desc": "豊田鉄工（愛知県豊田市、坂元康彦社長）は２４日、額田工場（同岡崎市）の隣接地に新工場を建設すると発表した。自動車部品の溶接・組み立てを手がけ、三河地区の生産体制の最適化や既存工場の老朽化対応につなげる...",
    "img": "https://images.newswitch.jp/images/7a60286e-fae3-4a2e-b642-76be37bda12f.jpg",
@@ -773,7 +788,7 @@
   "https://www.webuomo.jp/fashion/topic/oElb8g/": {
    "desc": null,
    "img": null,
-   "tries": 1
+   "tries": 2
   },
   "https://www.webuomo.jp/life/news/2026-11-27-iTN97A/": {
    "desc": "12月11日(金)より、渋谷ヒカリエ ヒカリエホールにて、『おしゃれするのは誰のため？展 ファッション雑誌が映し出す時代とジェンダー』が開幕。",
@@ -818,7 +833,7 @@
   "https://www.webuomo.jp/watch/topic/2026-11-02-hamilton/": {
    "desc": null,
    "img": null,
-   "tries": 1
+   "tries": 2
   }
  },
  "bijutsutecho": {},
@@ -827,7 +842,6 @@
  "newswitch": {
   "https://newswitch.jp/p/50878": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50884": "2026-11-26T08:53:48.706201+09:00",
-  "https://newswitch.jp/p/50885": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50886": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50887": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50888": "2026-11-26T08:53:48.706201+09:00",
@@ -859,6 +873,7 @@
   "https://newswitch.jp/p/50914": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50915": "2026-11-26T08:53:48.706201+09:00",
   "https://newswitch.jp/p/50916": "2026-11-26T16:35:58.559665+09:00",
+  "https://newswitch.jp/p/50917": "2026-11-28T14:13:45.809344+09:00",
   "https://newswitch.jp/p/50918": "2026-11-28T06:08:27.042288+09:00",
   "https://newswitch.jp/p/50919": "2026-11-28T06:08:27.042288+09:00",
   "https://newswitch.jp/p/50920": "2026-11-26T08:53:48.706201+09:00",

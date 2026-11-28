@@ -539,12 +539,74 @@ def parse_monoque_news(html, base_url):
     return result
 
 
+AB_ARTICLE_RE = re.compile(r"^/jp/ja/insights/(?:dq\d{4}/\d{2}|\d+)/?$")
+AB_TYPE_LABELS = ("インサイト", "調査・ホワイトペーパー")
+
+
+def parse_abeam_insights(html, base_url):
+    """ABeam Consulting insights list: each card links to
+    /jp/ja/insights/<id>/ (or /dqYYYY/MM/) and carries, as text
+    segments, the date (YYYY.MM.DD), the content type, the title,
+    category tags and author names. The longest segment that is not
+    the date or the type label is the title; the first short segment
+    after the title is kept as the category."""
+    soup = BeautifulSoup(html, "html.parser")
+    main = soup.find("main") or soup
+    events = flatten_events(main, lambda path, query: False)
+    items = []
+    pending_date = None
+    for ev in events:
+        if ev[0] == "text":
+            m = DATE_RE.search(ev[1])
+            if m:
+                pending_date = (int(m.group(1)), int(m.group(2)),
+                                int(m.group(3)))
+            continue
+        if not AB_ARTICLE_RE.match(ev[1]):
+            continue
+        segments = [s.strip() for s in ev[3].split("\n") if s.strip()]
+        date = pending_date
+        title = None
+        category = None
+        for seg in segments:
+            m = DATE_RE.search(seg)
+            if m and len(seg) <= 12:
+                date = (int(m.group(1)), int(m.group(2)), int(m.group(3)))
+                continue
+            if seg in AB_TYPE_LABELS:
+                continue
+            if title is None or len(seg) > len(title):
+                if title is not None and category is None and len(title) <= 30:
+                    category = title
+                title = seg
+            elif category is None and len(seg) <= 30:
+                category = seg
+        if title and len(title) >= 8 and date is not None:
+            items.append({
+                "title": title,
+                "url": urljoin(base_url, ev[1]),
+                "category": category,
+                "date": date,
+                "sub": None,
+                "subcategory": None,
+            })
+    result = []
+    seen = set()
+    for it in items:
+        if it["url"] not in seen:
+            seen.add(it["url"])
+            result.append(it)
+    result.sort(key=lambda it: it["date"], reverse=True)
+    return result
+
+
 PARSERS = {
     "uomo_whatsnew": parse_uomo_whatsnew,
     "bijutsutecho_news": parse_bijutsutecho_news,
     "fashionpost_news": parse_fashionpost_news,
     "newswitch_latest": parse_newswitch_latest,
     "monoque_news": parse_monoque_news,
+    "abeam_insights": parse_abeam_insights,
 }
 
 

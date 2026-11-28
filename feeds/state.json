@@ -760,12 +760,22 @@
    "img": null,
    "tries": 3
   },
+  "https://www.webuomo.jp/fashion/matome/X4-Bvg/": {
+   "desc": "肌寒さを感じる程度の秋から冬本番、そして春先まで長く使えるダウンを探しているなら、袖なしのベストタイプがちょうどいい。ここでピックアップした11型なら、保温性もデザイン性も申し分ない。",
+   "img": "https://img.webuomo.jp/article/sns/image/78/7820cebd-8f30-49d1-a961-bea822811301-1200x630.jpg",
+   "tries": 0
+  },
   "https://www.webuomo.jp/fashion/news/2026-11-25-ZKJSiw/": {
    "desc": "高機能なアウターを一着持っていれば、冬場をグッと快適に過ごせる。「ARKnets（アークネッツ）」が「DESCENTE ALLTERRAIN（デサント オルテライン）」に別注した一着は、さまざまな機能を凝縮しながらも洗練されたデザインに仕上がっている。",
    "img": "https://img.webuomo.jp/article/sns/image/9e/9e347b03-58b1-4068-9888-55d5006b13d2-1200x630.jpg",
    "tries": 0
   },
   "https://www.webuomo.jp/fashion/news/2026-11-27-djdDVw/": {
+   "desc": null,
+   "img": null,
+   "tries": 2
+  },
+  "https://www.webuomo.jp/fashion/news/2026-11-27-nl7F0g/": {
    "desc": null,
    "img": null,
    "tries": 1
@@ -803,7 +813,7 @@
   "https://www.webuomo.jp/sneaker/news/2026-11-26-cTp8QA/": {
    "desc": null,
    "img": null,
-   "tries": 1
+   "tries": 2
   },
   "https://www.webuomo.jp/uomolist/down200-2026aw/": {
    "desc": null,
@@ -811,11 +821,6 @@
    "tries": 3
   },
   "https://www.webuomo.jp/uomolist/lightouter30-2026aw/": {
-   "desc": null,
-   "img": null,
-   "tries": 3
-  },
-  "https://www.webuomo.jp/uomolist/wallet30-202627winter/": {
    "desc": null,
    "img": null,
    "tries": 3

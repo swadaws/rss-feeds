@@ -760,15 +760,15 @@
    "img": null,
    "tries": 3
   },
-  "https://www.webuomo.jp/fashion/matome/v6R__A/": {
-   "desc": "高機能なゴアテックスジャケットを手に入れるなら、人気アウトドアブランドのアイテムを選ぶのが正解。なかでもこの冬のおすすめは「黒じゃないほう」。着こなしのアクセントになるカラージャケットをピックアップした。",
-   "img": "https://img.webuomo.jp/article/sns/image/5e/5e20da13-de3d-4baf-bf06-ed6060b4b239-1200x629.jpg",
-   "tries": 1
-  },
   "https://www.webuomo.jp/fashion/news/2026-11-25-ZKJSiw/": {
    "desc": "高機能なアウターを一着持っていれば、冬場をグッと快適に過ごせる。「ARKnets（アークネッツ）」が「DESCENTE ALLTERRAIN（デサント オルテライン）」に別注した一着は、さまざまな機能を凝縮しながらも洗練されたデザインに仕上がっている。",
    "img": "https://img.webuomo.jp/article/sns/image/9e/9e347b03-58b1-4068-9888-55d5006b13d2-1200x630.jpg",
    "tries": 0
+  },
+  "https://www.webuomo.jp/fashion/news/2026-11-27-djdDVw/": {
+   "desc": null,
+   "img": null,
+   "tries": 1
   },
   "https://www.webuomo.jp/fashion/special/a01_arknets2611/": {
    "desc": "よく知っているブランドなのに、どこか新鮮。アークネッツの別注は、各ブランドの定番モデルやこれまで培ってきた素材開発や機能の魅力を活かしながら、色や...",
@@ -790,11 +790,6 @@
    "img": null,
    "tries": 3
   },
-  "https://www.webuomo.jp/life/news/2026-11-27-iTN97A/": {
-   "desc": "12月11日(金)より、渋谷ヒカリエ ヒカリエホールにて、『おしゃれするのは誰のため？展 ファッション雑誌が映し出す時代とジェンダー』が開幕。",
-   "img": "https://img.webuomo.jp/article/sns/image/96/9617dd35-ab91-4764-9df7-7d9383514d44-1200x630.jpg",
-   "tries": 0
-  },
   "https://www.webuomo.jp/life/topic/2026-11-25-briefing/": {
    "desc": "日頃からキャリーケースを高頻度で使う二人が、高い堅牢性を誇るブリーフィングの「HD」と、軽快な操作性が魅力の「SD」を試した。",
    "img": "https://img.webuomo.jp/article/sns/image/10/1065fdff-2615-4f41-96ce-d8ae796c6037-1280x720.jpg",
@@ -804,6 +799,11 @@
    "desc": null,
    "img": null,
    "tries": 3
+  },
+  "https://www.webuomo.jp/sneaker/news/2026-11-26-cTp8QA/": {
+   "desc": null,
+   "img": null,
+   "tries": 1
   },
   "https://www.webuomo.jp/uomolist/down200-2026aw/": {
    "desc": null,
@@ -829,11 +829,6 @@
    "desc": "カルティエ ウォッチ コレクターでありメゾンのアンバサダーを務める俳優・賀来賢人さん。なぜ熱烈にカルティエの時計に惹かれるのか。デザインやそれを支え...",
    "img": "https://img.webuomo.jp/article/sns/image/7c/7c1e2ab8-7f87-419f-95cb-7ec15bc00b56-1200x630.jpg",
    "tries": 0
-  },
-  "https://www.webuomo.jp/watch/topic/2026-11-02-hamilton/": {
-   "desc": null,
-   "img": null,
-   "tries": 3
   }
  },
  "bijutsutecho": {},

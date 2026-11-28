@@ -750,10 +750,10 @@
    "img": "https://img.webuomo.jp/article/sns/image/5e/5e20da13-de3d-4baf-bf06-ed6060b4b239-1200x629.jpg",
    "tries": 1
   },
-  "https://www.webuomo.jp/fashion/news/2026-11-20-7XPwuA/": {
-   "desc": "イタリア発のファッションブランド「TATRAS（タトラス）」が、東京・銀座店にてホリデーシーズン限定イベント「THE ART OF LIGHT & GIVING」を開催中。2026年11月12日（木）から12月25日（金）まで、幻想的な光のインスタレーションと特別なギフトラッピングという、2つの体験を楽しめる。",
-   "img": "https://img.webuomo.jp/article/sns/image/60/6049f045-71d1-4681-b532-785ae12a7c2f-1200x630.jpg",
-   "tries": 1
+  "https://www.webuomo.jp/fashion/news/2026-11-25-ZKJSiw/": {
+   "desc": "高機能なアウターを一着持っていれば、冬場をグッと快適に過ごせる。「ARKnets（アークネッツ）」が「DESCENTE ALLTERRAIN（デサント オルテライン）」に別注した一着は、さまざまな機能を凝縮しながらも洗練されたデザインに仕上がっている。",
+   "img": "https://img.webuomo.jp/article/sns/image/9e/9e347b03-58b1-4068-9888-55d5006b13d2-1200x630.jpg",
+   "tries": 0
   },
   "https://www.webuomo.jp/fashion/special/a01_arknets2611/": {
    "desc": "よく知っているブランドなのに、どこか新鮮。アークネッツの別注は、各ブランドの定番モデルやこれまで培ってきた素材開発や機能の魅力を活かしながら、色や...",
@@ -770,6 +770,11 @@
    "img": null,
    "tries": 3
   },
+  "https://www.webuomo.jp/fashion/topic/oElb8g/": {
+   "desc": null,
+   "img": null,
+   "tries": 1
+  },
   "https://www.webuomo.jp/life/news/2026-11-27-iTN97A/": {
    "desc": "12月11日(金)より、渋谷ヒカリエ ヒカリエホールにて、『おしゃれするのは誰のため？展 ファッション雑誌が映し出す時代とジェンダー』が開幕。",
    "img": "https://img.webuomo.jp/article/sns/image/96/9617dd35-ab91-4764-9df7-7d9383514d44-1200x630.jpg",
@@ -784,11 +789,6 @@
    "desc": null,
    "img": null,
    "tries": 3
-  },
-  "https://www.webuomo.jp/sneaker/topic/9dhScA/": {
-   "desc": "この秋、ビームス初のスポーツコンセプトストア「BEAMS SPORTS」が都立明治公園内にオープンした。訪れるだけで運動したくなる魅力的なお店で見つけたのは日本初上陸となるイギリス発フットランニングウェアブランド「ラッド ランニング」のランニングシューズ。流線形のデザインがクールで、実際履くと未体験の走り心地に驚愕。40歳を過ぎた自分には、カラダにいいギフトを。",
-   "img": "https://img.webuomo.jp/article/sns/image/d7/d7819798-7063-4c81-9fb3-7a8f082f5de1-1200x630.jpg",
-   "tries": 0
   },
   "https://www.webuomo.jp/uomolist/down200-2026aw/": {
    "desc": null,
@@ -814,6 +814,11 @@
    "desc": "カルティエ ウォッチ コレクターでありメゾンのアンバサダーを務める俳優・賀来賢人さん。なぜ熱烈にカルティエの時計に惹かれるのか。デザインやそれを支え...",
    "img": "https://img.webuomo.jp/article/sns/image/7c/7c1e2ab8-7f87-419f-95cb-7ec15bc00b56-1200x630.jpg",
    "tries": 0
+  },
+  "https://www.webuomo.jp/watch/topic/2026-11-02-hamilton/": {
+   "desc": null,
+   "img": null,
+   "tries": 1
   }
  },
  "bijutsutecho": {},
